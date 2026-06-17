@@ -20,7 +20,7 @@ DOMAIN-SUFFIX,sglong.weixin.qq.com
 DOMAIN-SUFFIX,frlong.weixin.qq.com
 DOMAIN-SUFFIX,dns.weixin.qq.com.cn
 DOMAIN-SUFFIX,paydns.wechatpay.cn
-DOMAIN-SUFFIX,wxsmw.wxs.qq.com
+#DOMAIN-SUFFIX,wxsmw.wxs.qq.com
 DOMAIN-SUFFIX,res.servicewechat.com
 DOMAIN-SUFFIX,launchwxacode.wxqcloud.qq.com.cn
 DOMAIN-SUFFIX,mp.weixin.qq.com
@@ -42,7 +42,7 @@ DOMAIN-SUFFIX,api2.mch.weixin.qq.com
 DOMAIN-SUFFIX,payapp.weixin.qq.com
 DOMAIN-SUFFIX,pay.weixin.qq.com
 DOMAIN-SUFFIX,log.weixin.qq.com
-DOMAIN-SUFFIX,cube.weixinbridge.com
+#DOMAIN-SUFFIX,cube.weixinbridge.com
 DOMAIN-SUFFIX,localhost.weixin.qq.com
 DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net
 DOMAIN-SUFFIX,servicewechat.com
