@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,mdnplay.dev
 DOMAIN-SUFFIX,mofoprod.net
 DOMAIN-SUFFIX,assets.mofoprod.net
 # Mozilla Access Service（Mozilla 访问服务）
+DOMAIN-SUFFIX,mozilla.com
 DOMAIN-SUFFIX,mozilla.org
 DOMAIN-SUFFIX,firefox.com
 DOMAIN-SUFFIX,addons.mozilla.org
