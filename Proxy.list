@@ -1,0 +1,112 @@
+#  其他国外代理
+
+# SpeedtestbyOokla（Speedtest网络测速平台）
+DOMAIN-SUFFIX,speedtest.net
+DOMAIN-SUFFIX,ooklaserver.net
+DOMAIN-SUFFIX,speedtestcustom.com
+DOMAIN-SUFFIX,speed.misaka.one
+DOMAIN-SUFFIX,cdnst.net
+DOMAIN-SUFFIX,ziffstatic.com
+DOMAIN-SUFFIX,speedtest.sjc.sonic.net
+DOMAIN-SUFFIX,fdcservers.net
+DOMAIN-SUFFIX,sp-sea-01.ezeefiber.net
+DOMAIN-SUFFIX,seattle.speedtest.centurylink.net
+DOMAIN-SUFFIX,mbspeed.net
+# OpenSpeedTest（OpenSpeedTest网络测速服务）
+DOMAIN-SUFFIX,openspeedtest.com
+# Whoer（Whoer匿名性检测平台）
+DOMAIN-SUFFIX,whoer.net
+# IPLeakPrivacyLeakTest（IPLeak隐私泄露检测平台）
+DOMAIN-SUFFIX,ipleak.net
+# DNSCheckDNSDiagnosticTool（DNSCheckDNS诊断工具）
+DOMAIN-SUFFIX,dnscheck.tools
+# Scamalytics（ScamalyticsIP风险检测平台）
+DOMAIN-SUFFIX,scamalytics.com
+DOMAIN-SUFFIX,api.scamalytics.com
+DOMAIN-SUFFIX,cdn.scamalytics.com
+# KhanTEDInstituteHigherEducationInitiative（KhanTEDInstitute高等教育项目）
+DOMAIN-SUFFIX,khanted.org
+# KhanAcademyLearningPlatform（KhanAcademy在线学习平台）
+DOMAIN-SUFFIX,khanacademy.org
+DOMAIN-SUFFIX,kastatic.org
+DOMAIN-SUFFIX,kasandbox.org
+# CashAppPaymentPlatform（CashApp支付平台）
+DOMAIN-SUFFIX,cash.app
+DOMAIN-SUFFIX,cash.me
+DOMAIN-SUFFIX,squareup.com
+DOMAIN-SUFFIX,api.cash.app
+DOMAIN-SUFFIX,payments.cash.app
+DOMAIN-SUFFIX,cdn.cash.app
+DOMAIN-SUFFIX,support.cash.app
+DOMAIN-SUFFIX,auth.cash.app
+DOMAIN-SUFFIX,secure.cash.app
+# DiscordVoiceandCommunityPlatform（Discord语音与社区平台）
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordstatus.com
+DOMAIN-SUFFIX,discord.gift
+DOMAIN-SUFFIX,discord.new
+# PinterestPhotoSocialPlatform（Pinterest图片社交平台）
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,pinimg.com
+DOMAIN-SUFFIX,pinterest.jp
+DOMAIN-SUFFIX,pinterest.co.uk
+DOMAIN-SUFFIX,pinterest.de
+DOMAIN-SUFFIX,pinterest.fr
+DOMAIN-SUFFIX,pinterest.se
+DOMAIN-SUFFIX,pinterest.at
+# Reddit
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,redditstatic.com
+# VenmoPaymentPlatform（Venmo支付平台）
+DOMAIN-SUFFIX,venmo.com
+DOMAIN-SUFFIX,api.venmo.com
+DOMAIN-SUFFIX,cdn.venmo.com
+DOMAIN-SUFFIX,help.venmo.com
+DOMAIN-SUFFIX,venmo.zendesk.com
+DOMAIN-SUFFIX,venmoassets.com
+# CanvaDesignPlatform（Canva设计平台）
+DOMAIN-SUFFIX,canva.com
+DOMAIN-SUFFIX,api.canva.com
+DOMAIN-SUFFIX,static.canva.com
+# AffinityDesignSoftwarePlatform（Affinity设计软件平台）
+DOMAIN-SUFFIX,affin.co
+DOMAIN-SUFFIX,affinity.studio
+DOMAIN-SUFFIX,serif.com
+DOMAIN-SUFFIX,affinity.serif.com
+DOMAIN-SUFFIX,store.serif.com
+DOMAIN-SUFFIX,resources.affinity.serif.com
+DOMAIN-SUFFIX,license.affinity.serif.com
+DOMAIN-SUFFIX,api.seriflabs.com
+DOMAIN-SUFFIX,cdn.seriflabs.com
+DOMAIN-SUFFIX,affinity.help
+DOMAIN-SUFFIX,affinity.api.serifservices.com
+DOMAIN-SUFFIX,m.affinstatic.com
+DOMAIN-SUFFIX,things.seriflabs.com
+DOMAIN-SUFFIX,events.api.serifservices.com
+IP-CIDR,108.156.144.96/32,no-resolve
+IP-CIDR,108.156.144.121/32,no-resolve
+IP-CIDR,108.156.144.120/32,no-resolve
+IP-CIDR,3.175.207.59/32,no-resolve
+IP-CIDR,185.18.139.0/24,no-resolve
+IP-CIDR,185.18.138.0/24,no-resolve
+# DuolingoLanguageLearningPlatform（Duolingo语言学习平台）
+DOMAIN-SUFFIX,duolingo.com
+DOMAIN-SUFFIX,duolingo.net
+DOMAIN-SUFFIX,duolingo.io
+# Seagm (seagm点卡充值/礼品卡平台)
+DOMAIN-SUFFIX,seagm.com
+DOMAIN-SUFFIX,seagmcdn.com
+# 补充
+DOMAIN,cdn.angruo.com
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,blizzard.com
+DOMAIN-SUFFIX,getpricetag.com
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,sciencemag.org
+DOMAIN-SUFFIX,teamviewer.com
