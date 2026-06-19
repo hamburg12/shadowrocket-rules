@@ -1,5 +1,24 @@
 #  其他国外代理
 
+# MDN Web Docs Developer Documentation（MDN Web Docs 开发者文档平台）
+DOMAIN-SUFFIX,developer.mozilla.org
+DOMAIN-SUFFIX,mdn.dev
+DOMAIN-SUFFIX,mdnplay.dev
+# Mozilla Foundation Asset Hosting（Mozilla Foundation 资源托管服务）
+DOMAIN-SUFFIX,mofoprod.net
+DOMAIN-SUFFIX,assets.mofoprod.net
+# Mozilla Access Service（Mozilla 访问服务）
+DOMAIN-SUFFIX,mozilla.org
+DOMAIN-SUFFIX,firefox.com
+DOMAIN-SUFFIX,addons.mozilla.org
+DOMAIN-SUFFIX,monitor.mozilla.org
+DOMAIN-SUFFIX,accounts.firefox.com
+DOMAIN-SUFFIX,oauth.accounts.firefox.com
+DOMAIN-SUFFIX,profile.accounts.firefox.com
+DOMAIN-SUFFIX,download.mozilla.org
+DOMAIN-SUFFIX,aus5.mozilla.org
+DOMAIN-SUFFIX,updates.cdn.mozilla.net
+DOMAIN-SUFFIX,mozilla.net
 # SpeedtestbyOokla（Speedtest网络测速平台）
 DOMAIN-SUFFIX,speedtest.net
 DOMAIN-SUFFIX,ooklaserver.net
