@@ -1,0 +1,20 @@
+#!name=广告关键词拦截规则集
+#!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
+# AdBlock_Keyword
+#Update time: 2026-06-19
+
+[Rule]
+DOMAIN-KEYWORD,adservice,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-KEYWORD,admob,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-KEYWORD,tracking,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-KEYWORD,track,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-KEYWORD,sensorsdata,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-KEYWORD,analytics,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-KEYWORD,logevent,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-KEYWORD,umeng,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-KEYWORD,bugly,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-KEYWORD,mopub,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-KEYWORD,appsflyer,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-KEYWORD,sentry,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-KEYWORD,logreport,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-KEYWORD,crashlytics,REJECT-DROP,extended-matching,pre-matching

@@ -1,0 +1,457 @@
+#!name=行为遥测服务识别规则集
+#!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
+#分类：行为遥测 / 数据采集 / SDK 分析节点
+#部分引用：https://github.com/Thoseyearsbrian/Aegis
+#部分引用：https://github.com/blackmatrix7/ios_rule_script
+#BehaviorDomain
+#Update time: 2026-06-19
+
+[Rule]
+# WeChat（微信）行为遥测服务
+DOMAIN-SUFFIX,longcloud.weixin.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,badjs.weixinbridge.com,REJECT,extended-matching,pre-matching
+# Apple 行为遥测服务
+DOMAIN-SUFFIX,analytics.edge.apple.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,supportmetrics.apple.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,notes-analytics-events.apple.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,weather-analytics-events.apple.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,imessage-analysis.apple.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,metrics.icloud.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,securemetrics.apple.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,metrics.apple.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,news-events.apple.com,REJECT,extended-matching,pre-matching
+# Alibaba / Ant / UC 行为遥测服务
+DOMAIN-SUFFIX,xlog.snssdk.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,alog.umeng.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,applog.uc.cn,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,errlog.umeng.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,acjs.aliyun.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,trace.aliyun.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,spm.aliyun.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,log-mmserver.alibaba.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,dap.alipay.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,gm.mmstat.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,h-adashx.ut.taobao.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,loggw.alipay.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,alivc-aio.cn-hangzhou.dualstack.log.aliyuncs.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,px.ucweb.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,loggw-external.alipay.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,loggw-ex.alipay.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,arms-retcode.aliyuncs.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,s9.cnzz.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adashx.m.taobao.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,umdc.alibaba-inc.com,REJECT,extended-matching,pre-matching
+IP-CIDR,119.42.251.214/32,REJECT,no-resolve,pre-matching
+IP-CIDR,203.209.244.173/32,REJECT,no-resolve,pre-matching
+IP-CIDR,110.76.16.70/32,REJECT,no-resolve,pre-matching
+IP-CIDR,203.209.244.141/32,REJECT,no-resolve,pre-matching
+# Google / Firebase / Crashlytics 行为遥测服务
+DOMAIN-SUFFIX,app-measurement.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,config.app-measurement.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,firebaseinstallations.googleapis.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,firebase-settings.crashlytics.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,clientmetrics-pa.googleapis.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,firebaselogging-pa.googleapis.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,firebasedynamiclinks.googleapis.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,app-analytics-services.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,www-google-analytics.l.google.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,merchant-center-analytics.goog,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,video-stats.video.google.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,google-analytics.com,REJECT,extended-matching,pre-matching
+# Datadog 行为遥测服务
+DOMAIN-SUFFIX,datadoghq-browser-agent.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,browser-intake-us5-datadoghq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,csp-report.browser-intake-datadoghq.eu,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,browser-intake-datadoghq.com,REJECT,extended-matching,pre-matching
+IP-CIDR,3.233.158.112/32,REJECT,no-resolve,pre-matching
+IP-CIDR6,2600:1f18:24e6:b901:fbdc:7182:a89c:6101/128,REJECT,no-resolve,pre-matching
+# Mozilla 行为遥测服务
+DOMAIN-SUFFIX,telemetry.mozilla.org,REJECT,extended-matching,pre-matching
+# Shopify 行为遥测服务
+DOMAIN-SUFFIX,monorail-edge.shopifysvc.com,REJECT,extended-matching,pre-matching
+# Microsoft 行为遥测服务
+DOMAIN-SUFFIX,mobile.events.data.microsoft.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,in.appcenter.ms,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,otelrules.svc.static.microsoft,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,clarity.ms,REJECT,extended-matching,pre-matching
+# Huawei 行为遥测服务
+DOMAIN-SUFFIX,hispace.hicloud.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,logservice.hicloud.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,metrics1.data.hicloud.com,REJECT,extended-matching,pre-matching
+# Cloudflare 行为遥测服务
+DOMAIN-SUFFIX,cloudflareinsights.com,REJECT,extended-matching,pre-matching
+# Sentry 错误与遥测服务
+DOMAIN-SUFFIX,o33249.ingest.us.sentry.io,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,sentry-cdn.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,js.sentry-cdn.com,REJECT,extended-matching,pre-matching
+# Coinbase 行为遥测服务
+DOMAIN-SUFFIX,analytics.coinbase.com,REJECT,extended-matching,pre-matching
+# Kuaishou 行为遥测服务
+DOMAIN-SUFFIX,log-sdk.ksapisrv.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,reportlog.corp.kuaishou.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,apm-collector.scs.kuaishou.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,logsdk.kwai-pro.com,REJECT,extended-matching,pre-matching
+# Xiaohongshu 行为遥测服务
+DOMAIN-SUFFIX,ark.xiaohongshu.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,sns-web.xiaohongshu.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,data-api.xiaohongshu.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,log.xiaohongshu.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,spider-tracker.xiaohongshu.com,REJECT,extended-matching,pre-matching
+IP-CIDR,175.27.147.188/32,REJECT,no-resolve,pre-matching
+# Baidu 行为遥测服务
+DOMAIN-SUFFIX,hm.baidu.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,tcbox.baidu.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,log.re.baidu.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,hmma.baidu.com,REJECT,extended-matching,pre-matching
+# Weibo 行为遥测服务
+DOMAIN-SUFFIX,wbapp.mobile.sina.cn,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,logmix.sina.cn,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,appmonitor.sina.cn,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,sdkapp.uve.weibo.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,trace.sina.cn,REJECT,extended-matching,pre-matching
+# AMap 行为遥测服务
+DOMAIN-SUFFIX,logs.amap.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,loc.amap.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,dualstack-logos.amap.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,stats.amap.com,REJECT,extended-matching,pre-matching
+# Zhihu 行为遥测服务
+DOMAIN-SUFFIX,udata.zhihu.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,collector.zhihu.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,crash2.zhihu.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,track.zhihu.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,t.zhihu.com,REJECT,extended-matching,pre-matching
+# Xiaomi / MIUI 行为遥测服务
+DOMAIN-SUFFIX,tracking.miui.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,sdkconfig.xiaomi.com,REJECT,extended-matching,pre-matching
+# Tencent 行为遥测服务
+DOMAIN-SUFFIX,bugly.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,mta.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,beacon.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,tracking.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,log.tbs.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,tdid.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,tajs.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,report.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,rumt-zh.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,rumt-sg.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,htrace.wetvinfo.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,h.trace.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,otheve.beacon.qq.com,REJECT,extended-matching,pre-matching
+# RudderStack 行为遥测服务
+DOMAIN-SUFFIX,api.rudderstack.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,cdn.rudderlabs.com,REJECT,extended-matching,pre-matching
+# Snowplow 行为遥测服务
+DOMAIN-SUFFIX,collector.snowplowanalytics.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,cdn.snowplowanalytics.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,spmtracker.com,REJECT,extended-matching,pre-matching
+# Mixpanel 行为遥测服务
+DOMAIN-SUFFIX,api.mixpanel.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,decide.mixpanel.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,cdn.mxpnl.com,REJECT,extended-matching,pre-matching
+# mParticle 行为遥测服务
+DOMAIN-SUFFIX,api.mparticle.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,cdn.mparticle.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,jssdk.mparticle.com,REJECT,extended-matching,pre-matching
+# Tealium 行为遥测服务
+DOMAIN-SUFFIX,tiqcdn.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,datacloud.tealiumiq.com,REJECT,extended-matching,pre-matching
+# Amplitude 行为遥测服务
+DOMAIN-SUFFIX,api.amplitude.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,api2.amplitude.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,cdn.amplitude.com,REJECT,extended-matching,pre-matching
+# CleverTap 行为遥测服务
+DOMAIN-SUFFIX,api.clevertap.com,REJECT,extended-matching,pre-matching
+# Heap 行为遥测服务
+DOMAIN-SUFFIX,collect.heapanalytics.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,cdn.heapanalytics.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,heap-api.com,REJECT,extended-matching,pre-matching
+# UXCam 行为遥测服务
+DOMAIN-SUFFIX,cdn.uxcam.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,track.uxcam.com,REJECT,extended-matching,pre-matching
+# Glassbox 行为遥测服务
+DOMAIN-SUFFIX,tracking.glassbox.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,cdn.glassbox.com,REJECT,extended-matching,pre-matching
+# FullStory 行为遥测服务
+DOMAIN-SUFFIX,events.fullstory.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,cdn.fullstory.com,REJECT,extended-matching,pre-matching
+# Hotjar 行为遥测服务
+DOMAIN-SUFFIX,static.hotjar.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,vars.hotjar.com,REJECT,extended-matching,pre-matching
+# Pendo 行为遥测服务
+DOMAIN-SUFFIX,api.pendo.io,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,cdn.pendo.io,REJECT,extended-matching,pre-matching
+# Flurry 行为遥测服务
+DOMAIN-SUFFIX,analytics.flurry.com,REJECT,extended-matching,pre-matching
+# CoolaData 行为遥测服务
+DOMAIN-SUFFIX,api.cooladata.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,cdn.cooladata.com,REJECT,extended-matching,pre-matching
+# Synerise 行为遥测服务
+DOMAIN-SUFFIX,api.synerise.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,tracker.synerise.com,REJECT,extended-matching,pre-matching
+# Usermaven 行为遥测服务
+DOMAIN-SUFFIX,analytics.usermaven.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,cdn.usermaven.com,REJECT,extended-matching,pre-matching
+# Lucky Orange 行为遥测服务
+DOMAIN-SUFFIX,cdn.luckyorange.com,REJECT,extended-matching,pre-matching
+# Smartlook 行为遥测服务
+DOMAIN-SUFFIX,cdn.smartlook.com,REJECT,extended-matching,pre-matching
+# Mouseflow 行为遥测服务
+DOMAIN-SUFFIX,cdn.mouseflow.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,api.mouseflow.com,REJECT,extended-matching,pre-matching
+# InfluxData 行为遥测服务
+DOMAIN-SUFFIX,eu-central-1-1.aws.cloud2.influxdata.com,REJECT,extended-matching,pre-matching
+# Akamai mPulse 行为遥测服务
+DOMAIN-SUFFIX,s.go-mpulse.net,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,akstat.io,REJECT,extended-matching,pre-matching
+# Vimeo 行为遥测服务
+DOMAIN-SUFFIX,fresnel-events.vimeocdn.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,fresnel.vimeocdn.com,REJECT,extended-matching,pre-matching
+# Honeycomb 遥测服务
+DOMAIN-SUFFIX,api.honeycomb.io,REJECT,extended-matching,pre-matching
+# Moka / Sensors Data 行为遥测服务
+DOMAIN-SUFFIX,moka.datasink.sensorsdata.cn,REJECT,extended-matching,pre-matching
+# Shengshu AI 行为遥测服务
+DOMAIN-SUFFIX,trace.shengshu-ai.com,REJECT,extended-matching,pre-matching
+# GrowingIO 行为遥测服务
+DOMAIN-SUFFIX,api-os.growingio.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,tags.growingio.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,assets.growingio.com,REJECT,extended-matching,pre-matching
+# Talkie-AI 行为遥测服务
+DOMAIN-SUFFIX,bigdata.talkie-ai.com,REJECT,extended-matching,pre-matching
+# Keen 行为遥测服务
+DOMAIN-SUFFIX,api.keen.io,REJECT,extended-matching,pre-matching
+# Adobe / Gainsight 行为遥测服务
+DOMAIN-SUFFIX,dcs.adobedc.net,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,rum.hlx.page,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,web-sdk.aptrinsic.com,REJECT,extended-matching,pre-matching
+# Datadog Browser Intake 遥测节点
+IP-CIDR,3.233.158.114/32,REJECT,no-resolve,pre-matching
+IP-CIDR,3.233.158.111/32,REJECT,no-resolve,pre-matching
+# HockeyStack 行为遥测服务
+DOMAIN-SUFFIX,data.hockeystack.com,REJECT,extended-matching,pre-matching
+# PostHog 行为遥测服务
+DOMAIN-SUFFIX,us-assets.i.posthog.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,us.i.posthog.com,REJECT,extended-matching,pre-matching
+# Framer 行为遥测服务
+DOMAIN-SUFFIX,events.framer.com,REJECT,extended-matching,pre-matching
+# Bugsnag 错误与遥测服务
+DOMAIN-SUFFIX,otlp.bugsnag.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,notify.bugsnag.com,REJECT,extended-matching,pre-matching
+# Goldcast 行为遥测服务
+DOMAIN-SUFFIX,analytics.goldcast.io,REJECT,extended-matching,pre-matching
+# ContentSquare 行为遥测服务
+DOMAIN-SUFFIX,t.contentsquare.net,REJECT,extended-matching,pre-matching
+# BetterStack 行为遥测服务
+DOMAIN-SUFFIX,t.betterstack.com,REJECT,extended-matching,pre-matching
+# Mapbox 行为遥测服务
+DOMAIN-SUFFIX,events.mapbox.com,REJECT,extended-matching,pre-matching
+# Agent.io 行为遥测服务
+DOMAIN-SUFFIX,static.agentio.com,REJECT,extended-matching,pre-matching
+# DebugBear 行为遥测服务
+DOMAIN-SUFFIX,cdn.debugbear.com,REJECT,extended-matching,pre-matching
+# G2 行为遥测服务
+DOMAIN-SUFFIX,tracking-api.g2.com,REJECT,extended-matching,pre-matching
+# Ahrefs 行为遥测服务
+DOMAIN-SUFFIX,analytics.ahrefs.com,REJECT,extended-matching,pre-matching
+# Toplyne 行为遥测服务
+DOMAIN-SUFFIX,toplyne-sdk.toplyne.io,REJECT,extended-matching,pre-matching
+# Crazy Egg 行为遥测服务
+DOMAIN-SUFFIX,script.crazyegg.com,REJECT,extended-matching,pre-matching
+# SegmentStream 行为遥测服务
+DOMAIN-SUFFIX,cdn.segmentstream.com,REJECT,extended-matching,pre-matching
+# EscapeTheCave 行为遥测服务
+DOMAIN-SUFFIX,analytics.escapethecave.ai,REJECT,extended-matching,pre-matching
+# Visitor Analytics 行为遥测服务
+DOMAIN-SUFFIX,app-worker.visitor-analytics.io,REJECT,extended-matching,pre-matching
+# Wix 错误与遥测服务
+DOMAIN-SUFFIX,sentry.wixpress.com,REJECT,extended-matching,pre-matching
+# GitLab 错误与遥测服务
+DOMAIN-SUFFIX,new-sentry.gitlab.net,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,snowplowprd.trx.gitlab.net,REJECT,extended-matching,pre-matching
+# Metricool 行为遥测服务
+DOMAIN-SUFFIX,tracker.metricool.com,REJECT,extended-matching,pre-matching
+# BBC 行为遥测服务
+DOMAIN-SUFFIX,dotcom.bbc-reporting-api.app,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,mybbc-analytics.files.bbci.co.uk,REJECT,extended-matching,pre-matching
+# ScorecardResearch 行为遥测服务
+DOMAIN-SUFFIX,sb.scorecardresearch.com,REJECT,extended-matching,pre-matching
+# Cxense 行为遥测服务
+DOMAIN-SUFFIX,cdn.cxense.com,REJECT,extended-matching,pre-matching
+# Chartbeat 行为遥测服务
+DOMAIN-SUFFIX,static.chartbeat.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,pnytimes.chartbeat.net,REJECT,extended-matching,pre-matching
+# The New York Times 行为遥测服务
+DOMAIN-SUFFIX,et.nytimes.com,REJECT,extended-matching,pre-matching
+# Iterate 行为遥测服务
+DOMAIN-SUFFIX,platform.iteratehq.com,REJECT,extended-matching,pre-matching
+# Brand Metrics 行为遥测服务
+DOMAIN-SUFFIX,cdn.brandmetrics.com,REJECT,extended-matching,pre-matching
+# CNZZ 行为遥测服务
+DOMAIN-SUFFIX,s13.cnzz.com,REJECT,extended-matching,pre-matching
+# Astro 行为遥测服务
+DOMAIN-SUFFIX,telemetry.astro.build,REJECT,extended-matching,pre-matching
+# Meituan Waimai 行为遥测服务
+DOMAIN-SUFFIX,log.waimai.meituan.com,REJECT,extended-matching,pre-matching
+# Ele.me 行为遥测服务
+DOMAIN-SUFFIX,h5-data.elemecdn.com,REJECT,extended-matching,pre-matching
+# Boss Zhipin 行为遥测服务
+DOMAIN-SUFFIX,logapi-ios.zhipin.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,apm-ios.zhipin.com,REJECT,extended-matching,pre-matching
+# Kanzhun 行为遥测服务
+DOMAIN-SUFFIX,t.kanzhun.com,REJECT,extended-matching,pre-matching
+# Recruitee 行为遥测服务
+DOMAIN-SUFFIX,careers-analytics.recruitee.com,REJECT,extended-matching,pre-matching
+# Beusable 行为遥测服务
+DOMAIN-SUFFIX,rum.beusable.net,REJECT,extended-matching,pre-matching
+# Naver 行为遥测服务
+DOMAIN-SUFFIX,wcs.naver.net,REJECT,extended-matching,pre-matching
+# Sanhusoft 行为遥测服务
+DOMAIN-SUFFIX,bi.sanhusoft.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,bi-n.sanhusoft.com,REJECT,extended-matching,pre-matching
+# Bybit 错误与遥测服务
+DOMAIN-SUFFIX,monitor-frontend-collector.a.bybit-aws.com,REJECT,extended-matching,pre-matching
+# MoonPay 错误与遥测服务
+DOMAIN-SUFFIX,otel-collector.moonpaycloud.com,REJECT,extended-matching,pre-matching
+# Sprig 行为遥测服务
+DOMAIN-SUFFIX,api.sprig.com,REJECT,extended-matching,pre-matching
+# Algolia 行为遥测服务
+DOMAIN-SUFFIX,insights.algolia.io,REJECT,extended-matching,pre-matching
+# Kapa 行为遥测服务
+DOMAIN-SUFFIX,metrics.kapa.ai,REJECT,extended-matching,pre-matching
+# Clicky 行为遥测服务
+DOMAIN-SUFFIX,static.getclicky.com,REJECT,extended-matching,pre-matching
+# USBrowserSpeed 行为遥测服务
+DOMAIN-SUFFIX,a.usbrowserspeed.com,REJECT,extended-matching,pre-matching
+# CR Relay 行为遥测服务
+DOMAIN-SUFFIX,api.cr-relay.com,REJECT,extended-matching,pre-matching
+# Gauges 行为遥测服务
+DOMAIN-SUFFIX,secure.gaug.es,REJECT,extended-matching,pre-matching
+# WoodpeckerLog 错误与遥测服务
+DOMAIN-SUFFIX,open.woodpeckerlog.com,REJECT,extended-matching,pre-matching
+# Pylon 行为遥测服务
+DOMAIN-SUFFIX,posthog-proxy.usepylon.com,REJECT,extended-matching,pre-matching
+# New Relic 错误与遥测服务
+DOMAIN-SUFFIX,bam.nr-data.net,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,js-agent.newrelic.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,bam-cell.nr-data.net,REJECT,extended-matching,pre-matching
+# Yandex WebVisor 行为遥测服务
+DOMAIN-SUFFIX,mc.webvisor.org,REJECT,extended-matching,pre-matching
+# LogRocket 行为遥测服务
+DOMAIN-SUFFIX,cdn.lr-in.com,REJECT,extended-matching,pre-matching
+# Getro 行为遥测服务
+DOMAIN-SUFFIX,an.getro.com,REJECT,extended-matching,pre-matching
+# Workday UXI 行为遥测服务
+DOMAIN-SUFFIX,uxi-ingestion.us.mlde.workday.com,REJECT,extended-matching,pre-matching
+# TradingView 行为遥测服务
+DOMAIN-SUFFIX,snowplow-pixel.tradingview.com,REJECT,extended-matching,pre-matching
+# Kakao 行为遥测服务
+DOMAIN-SUFFIX,aem-kakao-collector.onkakao.net,REJECT,extended-matching,pre-matching
+# Optimizely 行为遥测服务
+DOMAIN-SUFFIX,logx.optimizely.com,REJECT,extended-matching,pre-matching
+# Dynamic 行为遥测服务
+DOMAIN-SUFFIX,logs.dynamicauth.com,REJECT,extended-matching,pre-matching
+# Segment 行为遥测服务
+DOMAIN-SUFFIX,api.segment.io,REJECT,extended-matching,pre-matching
+IP-CIDR,35.166.10.37/32,REJECT,no-resolve,pre-matching
+IP-CIDR,44.231.35.67/32,REJECT,no-resolve,pre-matching
+# Busuanzi 行为遥测服务
+DOMAIN-SUFFIX,busuanzi.ibruce.info,REJECT,extended-matching,pre-matching
+# 51.LA 行为遥测服务
+DOMAIN-SUFFIX,sdk.51.la,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,ia.51.la,REJECT,extended-matching,pre-matching
+# Uptrends 遥测服务
+DOMAIN-SUFFIX,hit.uptrendsdata.com,REJECT,extended-matching,pre-matching
+# Dynatrace 错误与遥测服务
+DOMAIN-SUFFIX,js-cdn.dynatrace.com,REJECT,extended-matching,pre-matching
+# Grafana Faro 错误与遥测服务
+DOMAIN-SUFFIX,faro-collector-prod-us-central-0.grafana.net,REJECT,extended-matching,pre-matching
+# TianwenCA 行为遥测服务
+DOMAIN-SUFFIX,sdktt.data.tianwenca.com,REJECT,extended-matching,pre-matching
+# ShuZiLM 行为遥测服务
+DOMAIN-SUFFIX,hdaa.shuzilm.cn,REJECT,extended-matching,pre-matching
+# Wasu TV 行为遥测服务
+DOMAIN-SUFFIX,wasu-statistics.cn-hangzhou.log.aliyuncs.com,REJECT,extended-matching,pre-matching
+# Funshion 行为遥测服务
+DOMAIN-SUFFIX,stat.funshion.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,pcap.funshion.com,REJECT,extended-matching,pre-matching
+# AppDynamics 错误与遥测服务
+DOMAIN-SUFFIX,eum-appdynamics.com,REJECT,extended-matching,pre-matching
+# Anthropic / Claude 行为遥测服务
+DOMAIN-SUFFIX,events.anthropic.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,events.claude.ai,REJECT,extended-matching,pre-matching
+# Wikimedia 行为遥测服务
+DOMAIN-SUFFIX,intake-analytics.wikimedia.org,REJECT,extended-matching,pre-matching
+# GoatCounter 行为遥测服务
+DOMAIN-SUFFIX,pencildev-new.goatcounter.com,REJECT,extended-matching,pre-matching
+# JPush 行为遥测服务
+DOMAIN-SUFFIX,stats.jpush.cn,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,ali-stats.jpush.cn,REJECT,extended-matching,pre-matching
+# Criteo 行为追踪服务
+DOMAIN-SUFFIX,criteo.com,REJECT,extended-matching,pre-matching
+# PubMatic 行为追踪服务
+DOMAIN-SUFFIX,pubmatic.com,REJECT,extended-matching,pre-matching
+# Amplitude（Amplitude 数据分析与行为追踪平台）
+DOMAIN-SUFFIX,sr-client-cfg.amplitude.com,REJECT,extended-matching,pre-matching
+# TechLab CDN（TechLab 行为追踪与数据收集 CDN）
+DOMAIN-SUFFIX,p11.techlab-cdn.com,REJECT,extended-matching,pre-matching
+# Transcend Telemetry（Transcend 数据隐私与行为追踪平台）
+DOMAIN-SUFFIX,telemetry.transcend.io,REJECT,extended-matching,pre-matching
+# IYouDui（有兜）相关域名
+DOMAIN-SUFFIX,spm.iyoudui.com,REJECT,extended-matching,pre-matching
+# Amazon Adobe Analytics Tracking（Amazon Adobe Analytics 跟踪服务）
+DOMAIN-SUFFIX,amazonservices.122.2o7.net,REJECT,extended-matching,pre-matching
+# Oracle Adobe Analytics Tracking（Oracle Adobe Analytics 跟踪服务）
+DOMAIN-SUFFIX,oracle.sc.omtrdc.net,REJECT,extended-matching,pre-matching
+# Adobe Marketo Measure / Bizible Attribution（Adobe Marketo Measure / Bizible 营销归因服务）
+DOMAIN-SUFFIX,bizible.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,cdn.bizible.com,REJECT,extended-matching,pre-matching
+# Upland SF14G Tracking Service（Upland SF14G 行为追踪服务）
+DOMAIN-SUFFIX,sf14g.com,REJECT,extended-matching,pre-matching
+# The PHP Foundation Web Analytics（The PHP Foundation 网站分析服务）
+DOMAIN-SUFFIX,analytics.thephp.foundation,REJECT,extended-matching,pre-matching
+# Adobe Experience Platform Edge Network（Adobe Experience Platform 边缘网络数据采集服务）
+DOMAIN-SUFFIX,adobedc.net,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,edge.adobedc.net,REJECT,extended-matching,pre-matching
+# Adobe Marketo Engage Munchkin Tracking（Adobe Marketo Engage Munchkin 营销自动化跟踪服务）
+DOMAIN-SUFFIX,marketo.net,REJECT,extended-matching,pre-matching
+# Mutiny Website Personalization Service（Mutiny 网站个性化服务）
+DOMAIN-SUFFIX,mutinycdn.com,REJECT,extended-matching,pre-matching
+# Salesforce Pardot Visitor Tracking（Salesforce Pardot 访客行为跟踪服务）
+DOMAIN-SUFFIX,pi.pardot.com,REJECT,extended-matching,pre-matching
+# Bazaarvoice Web Analytics Service（Bazaarvoice 网页分析服务）
+DOMAIN-SUFFIX,mczbf.com,REJECT,extended-matching,pre-matching
+# Demandbase Account-Based Marketing Tag（Demandbase 账户制营销识别标签）
+DOMAIN-SUFFIX,demandbase.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,tag.demandbase.com,REJECT,extended-matching,pre-matching
+# Nocodelytics Webflow Analytics Service（Nocodelytics Webflow 行为分析服务）
+DOMAIN-SUFFIX,nocodelytics.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,tracker.nocodelytics.com,REJECT,extended-matching,pre-matching
+# AINFT PostHog Event Tracking Service（AINFT PostHog 事件追踪服务）
+DOMAIN-SUFFIX,posthog.prd.ainft.com,REJECT,extended-matching,pre-matching
+# Datadog RUM Ingest Service（Datadog RUM 数据接入服务）
+DOMAIN-SUFFIX,ingesteer.services-prod.nsvcs.net,REJECT,extended-matching,pre-matching
+# ConvertBox On-Site Marketing Platform（ConvertBox 站内营销平台）
+DOMAIN-SUFFIX,cdn.convertbox.com,REJECT,extended-matching,pre-matching
+# Splunk Cloud Logging Ingest Service（Splunk Cloud 日志接入服务）
+DOMAIN-SUFFIX,http-inputs-notion.splunkcloud.com,REJECT,extended-matching,pre-matching
+# NVIDIA Analytics Services（NVIDIA 分析服务）
+DOMAIN-SUFFIX,nvidia.tt.omtrdc.net,REJECT,extended-matching,pre-matching
+# AB Tasty Experience Optimization Platform（AB Tasty 体验优化平台）
+DOMAIN-SUFFIX,abtasty.com,REJECT,extended-matching,pre-matching
+# SoftBank Data Marketing Service（SoftBank 数据营销服务）
+DOMAIN-SUFFIX,dm.slim02.jp,REJECT,extended-matching,pre-matching
+# CHEQ Invalid Traffic Detection Service（CHEQ 无效流量检测服务）
+DOMAIN-SUFFIX,euob.protoroundprince.com,REJECT,extended-matching,pre-matching
+# Contentsquare Digital Experience Analytics（Contentsquare 数字体验分析服务）
+DOMAIN-SUFFIX,contentsquare.net,REJECT,extended-matching,pre-matching
+# AppsFlyer Web SDK Attribution Service（AppsFlyer Web SDK 归因服务）
+DOMAIN-SUFFIX,websdk.appsflyersdk.com,REJECT,extended-matching,pre-matching
+# AppsFlyer Web SDK Attribution Service（AppsFlyer Web SDK 归因服务）
+DOMAIN-SUFFIX,websdk.appsflyer.com,REJECT,extended-matching,pre-matching
+# Leadfeeder Website Visitor Identification（Leadfeeder 网站访客识别服务）
+DOMAIN-SUFFIX,sc.lfeeder.com,REJECT,extended-matching,pre-matching
+# ClickTale User Behavior Analytics（ClickTale 用户行为分析服务）
+DOMAIN-SUFFIX,clicktale.net,REJECT,extended-matching,pre-matching
+# LogRocket Session Replay Analytics（LogRocket 会话回放分析服务）
+DOMAIN-SUFFIX,lgrckt-in.com,REJECT,extended-matching,pre-matching

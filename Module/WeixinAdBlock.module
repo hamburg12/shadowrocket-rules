@@ -1,0 +1,291 @@
+#!name=微信小程序广告拦截合集
+#!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
+
+[Rule]
+IP-CIDR,1.202.85.193/32,REJECT,no-resolve,pre-matching
+IP-CIDR,101.124.19.122/32,REJECT,no-resolve,pre-matching
+IP-CIDR,101.226.46.0/24,REJECT,no-resolve,pre-matching
+IP-CIDR,101.227.200.11/32,REJECT,no-resolve,pre-matching
+IP-CIDR,101.227.200.28/32,REJECT,no-resolve,pre-matching
+IP-CIDR,101.227.97.240/32,REJECT,no-resolve,pre-matching
+IP-CIDR,101.32.16.204/32,REJECT,no-resolve,pre-matching
+IP-CIDR,101.35.204.35/32,REJECT,no-resolve,pre-matching
+IP-CIDR,101.35.212.35/32,REJECT,no-resolve,pre-matching
+IP-CIDR,103.143.160.209/32,REJECT,no-resolve,pre-matching
+IP-CIDR,103.37.155.60/32,REJECT,no-resolve,pre-matching
+IP-CIDR,103.41.167.237/32,REJECT,no-resolve,pre-matching
+IP-CIDR,103.63.160.80/32,REJECT,no-resolve,pre-matching
+IP-CIDR,111.206.98.63/32,REJECT,no-resolve,pre-matching
+IP-CIDR,111.29.42.213/32,REJECT,no-resolve,pre-matching
+IP-CIDR,114.110.96.0/24,REJECT,no-resolve,pre-matching
+IP-CIDR,114.110.97.0/24,REJECT,no-resolve,pre-matching
+IP-CIDR,114.110.98.0/24,REJECT,no-resolve,pre-matching
+IP-CIDR,114.110.99.5/32,REJECT,no-resolve,pre-matching
+IP-CIDR,114.67.227.198/32,REJECT,no-resolve,pre-matching
+IP-CIDR,114.80.56.98/32,REJECT,no-resolve,pre-matching
+IP-CIDR,117.185.244.212/32,REJECT,no-resolve,pre-matching
+IP-CIDR,118.89.204.198/32,REJECT,no-resolve,pre-matching
+IP-CIDR,119.29.126.137/32,REJECT,no-resolve,pre-matching
+IP-CIDR,119.29.29.90/32,REJECT,no-resolve,pre-matching
+IP-CIDR,119.29.29.98/32,REJECT,no-resolve,pre-matching
+IP-CIDR,119.29.29.99/32,REJECT,no-resolve,pre-matching
+IP-CIDR,120.240.95.37/32,REJECT,no-resolve,pre-matching
+IP-CIDR,120.27.235.201/32,REJECT,no-resolve,pre-matching
+IP-CIDR,121.196.197.147/32,REJECT,no-resolve,pre-matching
+IP-CIDR,121.5.84.85/32,REJECT,no-resolve,pre-matching
+IP-CIDR,122.229.29.89/32,REJECT,no-resolve,pre-matching
+IP-CIDR,122.229.8.47/32,REJECT,no-resolve,pre-matching
+IP-CIDR,123.207.209.39/32,REJECT,no-resolve,pre-matching
+IP-CIDR,123.207.209.60/32,REJECT,no-resolve,pre-matching
+IP-CIDR,124.192.153.42/32,REJECT,no-resolve,pre-matching
+IP-CIDR,139.199.240.12/32,REJECT,no-resolve,pre-matching
+IP-CIDR,139.199.240.15/32,REJECT,no-resolve,pre-matching
+IP-CIDR,139.95.0.151/32,REJECT,no-resolve,pre-matching
+IP-CIDR,139.95.4.98/32,REJECT,no-resolve,pre-matching
+IP-CIDR,162.14.137.26/32,REJECT,no-resolve,pre-matching
+IP-CIDR,162.14.137.43/32,REJECT,no-resolve,pre-matching
+IP-CIDR,162.14.145.13/32,REJECT,no-resolve,pre-matching
+IP-CIDR,162.14.145.54/32,REJECT,no-resolve,pre-matching
+IP-CIDR,175.24.144.100/32,REJECT,no-resolve,pre-matching
+IP-CIDR,180.163.214.155/32,REJECT,no-resolve,pre-matching
+IP-CIDR,180.76.76.112/32,REJECT,no-resolve,pre-matching
+IP-CIDR,180.76.76.200/32,REJECT,no-resolve,pre-matching
+IP-CIDR,180.97.42.0/24,REJECT,no-resolve,pre-matching
+IP-CIDR,183.201.213.194/24,REJECT,no-resolve,pre-matching
+IP-CIDR,186.76.76.200/32,REJECT,no-resolve,pre-matching
+IP-CIDR,203.107.1.0/24,REJECT,no-resolve,pre-matching
+IP-CIDR,203.107.63.154/32,REJECT,no-resolve,pre-matching
+IP-CIDR,203.119.212.22/32,REJECT,no-resolve,pre-matching
+IP-CIDR,203.119.238.164/32,REJECT,no-resolve,pre-matching
+IP-CIDR,203.119.238.63/32,REJECT,no-resolve,pre-matching
+IP-CIDR,210.13.85.204/32,REJECT,no-resolve,pre-matching
+IP-CIDR,212.129.220.0/24,REJECT,no-resolve,pre-matching
+IP-CIDR,43.160.156.164/32,REJECT,no-resolve,pre-matching
+IP-CIDR,47.110.187.87/32,REJECT,no-resolve,pre-matching
+IP-CIDR,47.246.103.10/32,REJECT,no-resolve,pre-matching
+IP-CIDR,47.246.103.9/32,REJECT,no-resolve,pre-matching
+IP-CIDR,47.56.131.76/32,REJECT,no-resolve,pre-matching
+IP-CIDR,47.97.215.55/32,REJECT,no-resolve,pre-matching
+IP-CIDR,47.99.42.29/32,REJECT,no-resolve,pre-matching
+IP-CIDR,49.235.102.0/24,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.113.10/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.113.219/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.113.8/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.120.171/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.120.210/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.120.252/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.120.33/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.121.172/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.121.216/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.121.222/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.121.72/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.133.36/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.133.78/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.14.1/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.14.161/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.34.147/32,REJECT,no-resolve,pre-matching
+IP-CIDR,59.82.34.255/32,REJECT,no-resolve,pre-matching
+IP-CIDR,61.170.65.165/32,REJECT,no-resolve,pre-matching
+IP-CIDR,81.69.105.56/32,REJECT,no-resolve,pre-matching
+IP-CIDR,81.69.130.131/32,REJECT,no-resolve,pre-matching
+IP-CIDR,81.69.208.12/32,REJECT,no-resolve,pre-matching
+IP-CIDR,81.71.61.216/32,REJECT,no-resolve,pre-matching
+IP-CIDR6,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT,no-resolve,pre-matching
+IP-CIDR6,2402:db40:5100:1011::5/128,REJECT,no-resolve,pre-matching
+DOMAIN,badjs.weixinbridge.com,REJECT,extended-matching,pre-matching
+DOMAIN,cube.weixinbridge.com,REJECT,extended-matching,pre-matching
+DOMAIN,dns.weixin.qq.com.cn,REJECT,extended-matching,pre-matching
+DOMAIN,activity.video.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,adsmind.apdcdn.tc.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,adsmind.tc.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,aegis.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,appsupport.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,dns.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,huatuocode.huatuo.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,iacc.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,info4.video.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,info6.video.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,mazu.m.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,monitor.music.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,news.ssp.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,qzs.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,rdelivery.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,rmonitor.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,safebrowsing.urlsec.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,sdkconfig.video.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,splashqqlive.gtimg.com,REJECT,extended-matching,pre-matching
+DOMAIN,stat.y.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,tmead.y.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,tmeadbak.y.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,tmeadcomm.y.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,tp2p.kg.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,tux.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,twns.p2ptun.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,vv.video.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,wxsmsdy.video.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,activeqq.3g.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,ad.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adping.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adpm.app.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adrdir.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adsclick.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adsense.html5.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adsfile.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adsgroup.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adshmct.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adshmmsg.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adslvfile.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adslvseed.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adsmind.tc.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adsolution.imtt.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adsqqclick.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adstextview.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adsview.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adsview2.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adv.app.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,adver.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,analy.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,api.poll.video.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,bugly.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,c.gj.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,d3g.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,download.sj.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,dp3.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,e.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,fusion.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,game.html5.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,gdt.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,ggmmqq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,j.wit.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,jqmt.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,jsqmt.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,l.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,livep.l.ott.video.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,masdk.3g.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,mdt.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,mfm.video.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,mini2015.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,monitor.uu.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,mqqad.cs0309.html5.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,mqqad.html5.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,mqqadr.reader.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,news-l.play.ott.video.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,news.mpush.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,news.ssp.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,novelsns.html5.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,omgmta.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,omgmta1.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,pcbrowser.dd.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,pingma.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,pingtcss.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,pmir.3g.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,pvstat.html5.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,qqshow2-item.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,rqd.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,scdown.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,setting.snswin.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,sngmta.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,static-res.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,t.sj.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,ta.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,tajs.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,tcss.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,tpns.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,tpush.html5.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,updatecenter.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,video.mpush.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,video.ureport.push.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,video.wap.mpush.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,vlive.qqvideo.tc.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,wap.mpush.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,ws.sj.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,wup.imtt.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,wxs.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,wxsmsdy.video.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,wxsnsdy.tc.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-KEYWORD,trace.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-KEYWORD,trace.video.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN-KEYWORD,track.qq.com,REJECT,extended-matching,pre-matching
+DOMAIN,ad.tencentmusic.com,REJECT,extended-matching,pre-matching
+DOMAIN,adcdn.tencentmusic.com,REJECT,extended-matching,pre-matching
+DOMAIN,adcdn6.tencentmusic.com,REJECT,extended-matching,pre-matching
+DOMAIN,adclick.tencentmusic.com,REJECT,extended-matching,pre-matching
+DOMAIN,adexpo.tencentmusic.com,REJECT,extended-matching,pre-matching
+DOMAIN,adstats.tencentmusic.com,REJECT,extended-matching,pre-matching
+DOMAIN,mc.tencentmusic.com,REJECT,extended-matching,pre-matching
+DOMAIN,report.tencentmusic.com,REJECT,extended-matching,pre-matching
+DOMAIN,tpstelemetry.tencent.com,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,tpns.tencent.com,REJECT,extended-matching,pre-matching
+
+[URL Rewrite]
+^https?:\/\/payapp\.weixin\.qq\.com\/mchopenapp\/goldplan\/adpage - reject
+^https?:\/\/api-marketing\.zhinengxiyifang\.cn\/api\/v\d\/cloudcode\/wechat\/bid - reject
+^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/info-flow\/reconsitution-list - reject
+^https?:\/\/(api|atrace)\.chelaile\.net\.cn\/adpub - reject
+^https?:\/\/web\.chelaile\.net\.cn\/api\/adpub - reject
+^https?:\/\/pic\d\.chelaile\.net\.cn\/adv\/ - reject
+^https?:\/\/api\.chelaile\.net\.cn\/goocity\/advert - reject
+^https?:\/\/cdn\.\w{3}\.chelaileapp\.cn\/(api\/)?adpub - reject
+^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(?>getSystemConf|bootScreen) - reject
+^https?:\/\/apd-vlive\.apdcdn\.tc\.qq\.com\/vmind\.qqvideo\.tc\.qq\.com\/\w+ - reject
+^https?:\/\/r\.inews\.qq\.com\/(?>adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) - reject
+^https?:\/\/r\.inews\.qq\.com\/(?>getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) - reject
+^https?:\/\/us\.l\.qq\.com\/exapp - reject
+^https?:\/\/news\.ssp\.qq\.com\/app - reject
+^https?:\/\/music\.y\.qq\.com\/maproxy\/getPbCompressAd - reject
+^https?:\/\/apd-\w+\.v\.smtcdns\.com\/(defaultts|omts|vmind\.qqvideo)\.tc\.qq\.com\/ - reject
+
+[Map Local]
+^https?:\/\/mp\.weixin\.qq\.com\/wapad\/reportaddata\?action=exposure_report data-type=text data="" status-code=200
+^https?:\/\/wx\.bthhotels\.com\/miniapp\/weixin\/v\d\/home\/index_banner data-type=json data="{}" status-code=200
+^https?:\/\/wxs-weixin\.sd\.zhumanggroup\.com\/api\/v\d\/ad data-type=json data="{}" status-code=200
+^https?:\/\/mp\.weixin\.qq\.com\/wapad\/getaddata\?action=getad data-type=text data="" status-code=200
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/(?>ad_|advertisement|getappmsgad|cps_product_info|masonryfeed|relatedarticle|relatedsearchword|searchkeywordreport|geticon|getainfo|jsmonitor) data-type=json data="{}" status-code=200
+^https?:\/\/npay\.meituan\.com\/conch\/walletv\d\/wechat-pop-window data-type=json data="{}" status-code=200
+^https?:\/\/wechat\.tf\.cn\/mini-financial\/model\/queryPopup data-type=json data="{}" status-code=200
+^https?:\/\/ucmp\.sf-express\.com\/cx-wechat-query\/query\/module-config\/query data-type=json data="{}" status-code=200
+^https?:\/\/rms\.meituan\.com\/api\/v\d\/rmsmina\/c\/queryWechatAdvertisement data-type=json data="{}" status-code=200
+^https?:\/\/m\.ctrip\.com\/restapi\/soa\d\/\d+\/(?>tripAds|queryWeChatHotEvent) data-type=json data="{}" status-code=200
+^https?:\/\/new\.wwldz\.com\/wechat\/ad\/ data-type=json data="{}" status-code=200
+^https?:\/\/e\.weather\.com\.cn\/weChat\/typhoonNull\.json data-type=json data="{}" status-code=200
+^https?:\/\/dl\.wechat\.com\/checkresupdate data-type=json data="{}" status-code=200
+^https?:\/\/atrace\.chelaile\.net\.cn\/exhibit\?&adv_image data-type=tiny-gif status-code=200
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? data-type=text data="" status-code=200
+^https?:\/\/us\.l\.qq\.com\/exapp data-type=text data="" status-code=200
+^https?:\/\/webcdn\.m\.qq\.com\/qiantu\/upload\/202[0-9]{5}\/.*.(?>jpg|png) data-type=text data="" status-code=200
+^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash data-type=text data="" status-code=200
+^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend\/(?!v\d\/platactivity) data-type=text data="" status-code=200
+^https?:\/\/api2\.helper\.qq\.com\/game\/buttons data-type=tiny-gif status-code=200
+^https?:\/\/splashqqlive\.gtimg\.com\/website\/\d{6} data-type=tiny-gif status-code=200
+^https?:\/\/mmgr\.gtimg\.com\/gjsmall\/qqpim\/public\/ios\/splash\/.+?\/\d{4}_\d{4} data-type=tiny-gif status-code=200
+^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(?>jpg|jpeg) data-type=text data="" status-code=200
+^https?:\/\/vv\.video\.qq\.com\/(?>diff|get)vmind data-type=json data="{}" status-code=200
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ data-type=text data="" status-code=200
+^https?:\/\/bk\.bingo\.qq\.com\/bk\/crx\/data\/videoAd data-type=json data="{}" status-code=200
+^https?:\/\/4gimg\.map\.qq\.com\/mwaSplash\/ data-type=text data="" status-code=200
+^https?:\/\/api\.xiangji\.qq\.com\/splash$ data-type=json data="{}" status-code=200
+^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info data-type=text data="" status-code=200
+^https?:\/\/bla\.gtimg\.com\/qqlive\/\d{6}.+?\.png data-type=tiny-gif status-code=200
+^https?:\/\/api\.gameplus\.qq\.com\/community\.OnloadSrv\/GetPreloadScreenInfo data-type=text data="" status-code=200
+^https?:\/\/djcapp\.game\.qq\.com\/daoju\/igw\/main\/\?_service=welink\.ad\.list&_ret_key=result&site_set data-type=text data="" status-code=200
+^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ data-type=text data="" status-code=200
+^https?:\/\/h5api\.sginput\.qq\.com\/v\d\/gcenter\/ios\/homepage data-type=json data="{}" status-code=200
+^https?:\/\/imgcache\.qq\.com\/qqlive\/ data-type=tiny-gif status-code=200
+^https?:\/\/dsxcx\.tencent-prod\.pagoda\.com\.cn\/exc\/wxapp\/homePage\/v\d\/get(?>HomeLaunchDialog|Floating) data-type=json data="{}" status-code=200
+^https?:\/\/eshop-api-wx-mini\.eshop\.tencent-prod\.pagoda\.com\.cn\/api\/v\d\/memberPage\/launchDialog data-type=json data="{}" status-code=200
+
+[Body Rewrite]
+http-response ^https?:\/\/waimai-guide\.ele\.me\/h5\/mtop\.alsc\.eleme\.miniapp\.homepage wechat_miniapp_scene_card_template zirawell
+http-request ^https?:\/\/vv\.video\.qq\.com\/getvinfo &sppreviewtype=\d(.*)&spsrt=\d &sppreviewtype=0$1&spsrt=0
+
+[Header Rewrite]
+^https?:\/\/github\.com\/ url request-header (\r\n)Accept-Language:.+(\r\n) request-header $1Accept-Language: en-us$2
+http-request ^https?:\/\/gw\.xiaocantech\.com\/rpc header-replace-regex 'methodname' '(?>Popup|Banner|BatchMatchPlacement|WaitClaimedPoints)' 'null'
+^https?:\/\/(raw|gist)\.githubusercontent\.com\/ url request-header (\r\n)Accept-Language:.+(\r\n) request-header $1Accept-Language: en-us$2
+
+[Script]
+wechat = type=http-response,pattern=^https?:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/Plugins/Wechat_Unblock_URL.js
+wechatAppletGeneral = type=http-response,pattern=^https?:\/\/(?>webapi|miniapp)\.qmai\.cn\/web\/catering([0-9]-apiserver)?\/advertising\/ad\/advertiseInfo,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/qmai.js
+
+[MITM]
+hostname= %APPEND% wxs-weixin.sd.zhumanggroup.com,payapp.weixin.qq.com,mp.weixin.qq.com,weixin110.qq.com,wechat.tf.cn,dl.wechat.com,security.wechat.com,us.l.qq.com,bgw.xinyue.qq.com,api.gameplus.qq.com,news.ssp.qq.com,us.l.qq.com,ossweb-img.qq.com,mlol.qt.qq.com,payapp.weixin.qq.com,mp.weixin.qq.com,weixin110.qq.com,iphone.ac.qq.com,djcapp.game.qq.com,api2.helper.qq.com,imgcache.qq.com,mtteve.beacon.qq.com,vv.video.qq.com,qt.qq.com,splashqqlive.gtimg.com,bk.bingo.qq.com,mi.gdt.qq.com,api.xiangji.qq.com,vv.video.qq.com,apd-vlive.apdcdn.tc.qq.com,music.y.qq.com,4gimg.map.qq.com,3gimg.qq.com,r.inews.qq.com,h5api.sginput.qq.com,sec.sginput.qq.com,mp.weixin.qq.com,webcdn.m.qq.com,pic*.chelaile.net.cn,api.chelaile.net.cn,atrace.chelaile.net.cn,web.chelaile.net.cn,cdn.*.chelaileapp.cn
