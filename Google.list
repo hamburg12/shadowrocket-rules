@@ -148,6 +148,8 @@ DOMAIN-SUFFIX,resources.blogblog.com
 DOMAIN-SUFFIX,blogger.googleusercontent.com
 DOMAIN-SUFFIX,blogger.googleblog.com
 DOMAIN-SUFFIX,bp.blogspot.com
+
+# Google Fiber / GFiber（Google 宽带服务）
 DOMAIN-SUFFIX,fiber.google.com
 DOMAIN-SUFFIX,gigabit.google.com
 DOMAIN-SUFFIX,fiberstatus.com
