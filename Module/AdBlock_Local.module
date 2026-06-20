@@ -801,9 +801,9 @@ DOMAIN-SUFFIX,zhugeio.com,REJECT-DROP,extended-matching,pre-matching
 # 酷云互动
 DOMAIN-SUFFIX,kuyun.com,REJECT-DROP,extended-matching,pre-matching
 # 车来了
-DOMAIN-SUFFIX,atrace.chelaile.net.cn,REJECT-DROP,extended-matching,pre-matching
-DOMAIN-SUFFIX,ad.chelaile.net.cn,REJECT-DROP,extended-matching,pre-matching
-DOMAIN-SUFFIX,logs.chelaile.net.cn,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-SUFFIX,atrace.chelaile.net.cn,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,ad.chelaile.net.cn,REJECT,extended-matching,pre-matching
+DOMAIN-SUFFIX,logs.chelaile.net.cn,REJECT,extended-matching,pre-matching
 # 航旅纵横
 DOMAIN-SUFFIX,analytics.umetrip.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,sensors.umetrip.com.cn,REJECT-DROP,extended-matching,pre-matching
