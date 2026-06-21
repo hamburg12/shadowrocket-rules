@@ -188,3 +188,4 @@ DOMAIN-SUFFIX,trustarc.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,adform.net,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,flurry.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-SUFFIX,sessions.bugsnag.com,REJECT-DROP,extended-matching,pre-matching
