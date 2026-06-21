@@ -817,5 +817,5 @@ DOMAIN-SUFFIX,detect.sms.360.cn,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,ads.95516.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,adsfilebssdlbig.ali.kugou.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,po.funshion.com,REJECT-DROP,extended-matching,pre-matching
-DOMAIN-SUFFIX,m.cn.miaozhen.com,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-SUFFIX,e.cn.miaozhen.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,adsebs.ximalaya.com,REJECT-DROP,extended-matching,pre-matching
