@@ -1,5 +1,5 @@
 # Apple-CN
-#Update time: 2026-07-01
+#Update time: 2026-07-02
 
 #AppleCoreServices（Apple核心系统服务）
 DOMAIN-SUFFIX,apple.cn
@@ -12,14 +12,14 @@ DOMAIN-SUFFIX,cl3-cn.apple.com
 DOMAIN-SUFFIX,cl4-cn.apple.com
 
 #AppleCaptivePortalChinaNodes（Apple强制门户中国连接检测节点）
-IP-CIDR,58.215.50.244/32
-IP-CIDR,59.52.142.11/32
-IP-CIDR,61.131.131.63/32
-IP-CIDR,106.227.101.208/32
-IP-CIDR,120.39.195.214/32
-IP-CIDR,120.39.195.242/32
-IP-CIDR,121.204.250.29/32
-IP-CIDR,125.77.141.141/32
+IP-CIDR,58.215.50.244/32,no-resolve
+IP-CIDR,59.52.142.11/32,no-resolve
+IP-CIDR,61.131.131.63/32,no-resolve
+IP-CIDR,106.227.101.208/32,no-resolve
+IP-CIDR,120.39.195.214/32,no-resolve
+IP-CIDR,120.39.195.242/32,no-resolve
+IP-CIDR,121.204.250.29/32,no-resolve
+IP-CIDR,125.77.141.141/32,no-resolve
 
 #iCloudServices（iCloud云服务）
 DOMAIN-SUFFIX,icloud.com.cn
