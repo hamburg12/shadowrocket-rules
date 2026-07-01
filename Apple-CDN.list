@@ -14,6 +14,7 @@ DOMAIN-SUFFIX,push.apple.com.cdn-apple.com
 DOMAIN-SUFFIX,push-edge-cdn.apple.com
 DOMAIN-SUFFIX,push.apple.com.edgesuite.net
 DOMAIN-SUFFIX,push.apple.com.edgekey.net
+DOMAIN-SUFFIX,push.apple.com.akadns.net
 DOMAIN-SUFFIX,apple-com.akamaized.net
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,static-assets.apple.com
