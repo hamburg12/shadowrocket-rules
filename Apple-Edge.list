@@ -41,7 +41,6 @@ DOMAIN-SUFFIX,sse-ws-p189.apple.com
 DOMAIN-SUFFIX,gdmf-ados.apple.com
 DOMAIN-SUFFIX,pds-init.ess.apple.com
 DOMAIN-SUFFIX,weather-edge.apple.com
-#DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud-edge.apple.com
 DOMAIN-SUFFIX,api.icloud.com
@@ -67,7 +66,6 @@ DOMAIN-SUFFIX,mail.icloud.com
 DOMAIN-SUFFIX,smtp.mail.icloud.com
 DOMAIN-SUFFIX,imap.mail.icloud.com
 DOMAIN-SUFFIX,caldav.mail.icloud.com
-DOMAIN-SUFFIX,service-routing.apple.com
 DOMAIN-SUFFIX,edge-routing.apple.com
 DOMAIN-SUFFIX,activation-router.apple.com
 DOMAIN-SUFFIX,restore-edge.apple.com
