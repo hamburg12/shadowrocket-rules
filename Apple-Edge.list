@@ -1,7 +1,6 @@
 #Apple Edge&Route
 #Update time: 2026-07-02
 
-DOMAIN-SUFFIX,certs.apple.com
 DOMAIN-SUFFIX,time-ios.apple.com
 DOMAIN-SUFFIX,time-macos.apple.com
 DOMAIN-SUFFIX,hls.apple.com
@@ -17,9 +16,6 @@ DOMAIN-SUFFIX,weather.apple.com
 DOMAIN-SUFFIX,music.apple.com
 DOMAIN-SUFFIX,radio.itunes.apple.com
 DOMAIN-SUFFIX,probe.apple.com
-DOMAIN-SUFFIX,security-edge.apple.com
-DOMAIN-SUFFIX,secureboot-edge.apple.com
-DOMAIN-SUFFIX,attestation-edge.apple.com
 DOMAIN-SUFFIX,dns.apple.com
 DOMAIN-SUFFIX,captive.apple.com
 DOMAIN-SUFFIX,pancake.apple.com
@@ -45,10 +41,7 @@ DOMAIN-SUFFIX,sse-ws-p189.apple.com
 DOMAIN-SUFFIX,gdmf-ados.apple.com
 DOMAIN-SUFFIX,pds-init.ess.apple.com
 DOMAIN-SUFFIX,weather-edge.apple.com
-DOMAIN-SUFFIX,siri-edge.apple.com
-DOMAIN-SUFFIX,assistant-edge.apple.com
-DOMAIN-SUFFIX,ml-cdn.apple.com
-DOMAIN-SUFFIX,ml-edge.apple.com
+#DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud-edge.apple.com
 DOMAIN-SUFFIX,api.icloud.com
@@ -70,34 +63,21 @@ DOMAIN-SUFFIX,p06-ckdatabasews.icloud.com
 DOMAIN-SUFFIX,caldav.icloud.com
 DOMAIN-SUFFIX,contacts.icloud.com
 DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN-SUFFIX,relay-edge.icloud.com
 DOMAIN-SUFFIX,mail.icloud.com
 DOMAIN-SUFFIX,smtp.mail.icloud.com
 DOMAIN-SUFFIX,imap.mail.icloud.com
 DOMAIN-SUFFIX,caldav.mail.icloud.com
-DOMAIN-SUFFIX,mesh-edge.apple.com
-DOMAIN-SUFFIX,service-edge.apple.com
-DOMAIN-SUFFIX,ckdatabase-edge.apple.com
-DOMAIN-SUFFIX,mesh-routing.apple.com
 DOMAIN-SUFFIX,service-routing.apple.com
-DOMAIN-SUFFIX,assistant-routing.apple.com
-DOMAIN-SUFFIX,ai-edge.apple.com
-DOMAIN-SUFFIX,ml-routing.apple.com
-DOMAIN-SUFFIX,ml-dispatch.apple.com
 DOMAIN-SUFFIX,edge-routing.apple.com
 DOMAIN-SUFFIX,activation-router.apple.com
 DOMAIN-SUFFIX,restore-edge.apple.com
 DOMAIN-SUFFIX,swdist-edge.apple.com
 DOMAIN-SUFFIX,update-router.apple.com
 DOMAIN-SUFFIX,device-auth-edge.apple.com
-DOMAIN-SUFFIX,cloudkit-edge.apple.com
-DOMAIN-SUFFIX,cloudkit-routing.apple.com
-DOMAIN-SUFFIX,siri-routing.apple.com
 DOMAIN-SUFFIX,edge-dispatch.apple.com
 DOMAIN-SUFFIX,edge-bootstrap.apple.com
 DOMAIN-SUFFIX,edge.apple.com
 DOMAIN-SUFFIX,edge.icloud.com
-DOMAIN-SUFFIX,relay.push.apple.com
 DOMAIN-SUFFIX,push-apple.com
 DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,api.push.apple.com
@@ -133,7 +113,6 @@ DOMAIN-SUFFIX,apple.com.edgekey.net
 DOMAIN-SUFFIX,lookup-api.apple.com.edgekey.net
 DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net
 DOMAIN-SUFFIX,cdsassets.apple.com
-DOMAIN-SUFFIX,activation.edge.apple.com
 DOMAIN-SUFFIX,swquery.apple.com
 DOMAIN-SUFFIX,swscan.apple.com
 DOMAIN-SUFFIX,swdist.apple.com
@@ -165,7 +144,6 @@ DOMAIN-SUFFIX,diagnostics.apple.com
 DOMAIN-SUFFIX,diagassets.apple.com
 DOMAIN-SUFFIX,repair.apple.com
 DOMAIN-SUFFIX,testflight.apple.com
-DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,listen.apple.com
 DOMAIN-SUFFIX,radio.apple.com
 DOMAIN-SUFFIX,podcast.apple.com
@@ -183,8 +161,6 @@ DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,applemusicconnect.com
 DOMAIN-SUFFIX,apple-livephotoskit.com
 DOMAIN-SUFFIX,amp-api-edge.apps.apple.com
-DOMAIN-SUFFIX,bag.itunes.apple.com
-DOMAIN-SUFFIX,bag.apple.com
 DOMAIN-SUFFIX,apptrailers.itunes.apple.com
 DOMAIN-SUFFIX,pd.itunes.apple.com
 DOMAIN-SUFFIX,amp-api-updates.apps.apple.com
@@ -213,10 +189,4 @@ DOMAIN-SUFFIX,static.gc.apple.com
 DOMAIN-SUFFIX,profile.gc.apple.com
 DOMAIN-SUFFIX,support.apple.com
 DOMAIN-SUFFIX,getsupport.apple.com
-DOMAIN-SUFFIX,relay-edge.apple-dns.net
-DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com
-DOMAIN-SUFFIX,apple-relay.cloudflare.com
-DOMAIN-SUFFIX,relay.icloud.com
-DOMAIN-SUFFIX,mask.apple-dns.net
-#DOMAIN-SUFFIX,icloud.com
 IP-CIDR,144.178.0.0/19,no-resolve
