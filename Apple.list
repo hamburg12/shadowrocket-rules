@@ -128,6 +128,7 @@ DOMAIN-SUFFIX,ckdatabase.apple.com
 DOMAIN-SUFFIX,ckdatabase-edge.apple.com
 DOMAIN-SUFFIX,mesh-routing.apple.com
 DOMAIN-SUFFIX,mesh-dispatch.apple.com
+DOMAIN-SUFFIX,service-routing.apple.com
 DOMAIN-SUFFIX,assistant-routing.apple.com
 DOMAIN-SUFFIX,siri-config.apple.com
 DOMAIN-SUFFIX,siri-bootstrap.apple.com
