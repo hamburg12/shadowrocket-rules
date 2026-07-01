@@ -200,4 +200,4 @@ IP-CIDR,65.199.22.0/23
 #AppleAutonomousSystemNetwork（Apple官方网络）
 IP-CIDR,17.0.0.0/8
 
-#DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,apple.com
