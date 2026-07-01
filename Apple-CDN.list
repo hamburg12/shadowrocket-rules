@@ -1,5 +1,5 @@
 #Apple-CDN
-#Update time: 2026-07-01
+#Update time: 2026-07-02
 
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,cdn.apple.com
@@ -39,7 +39,7 @@ DOMAIN-SUFFIX,mesu.apple.com.edgesuite.net
 DOMAIN-SUFFIX,icons.axm-usercontent-apple.com
 DOMAIN-SUFFIX,cdn.apple-mapkit.com
 DOMAIN-SUFFIX,apple-mapkit-cdn.apple.com
-IP-CIDR,192.35.50.0/24
+IP-CIDR,192.35.50.0/24,no-resolve
 DOMAIN-SUFFIX,gs-loc.apple.com
 DOMAIN-SUFFIX,cdn-locator.apple.com
 DOMAIN-SUFFIX,cdn-routing.apple.com
@@ -68,5 +68,5 @@ DOMAIN-SUFFIX,bag-cdn.apple.com
 DOMAIN-SUFFIX,apps.mzstatic.com
 DOMAIN-SUFFIX,cstat.cdn-apple.com
 DOMAIN-SUFFIX,relay-cdn.apple.com
-IP-CIDR,17.248.0.0/16
-IP-CIDR,17.253.0.0/16
+IP-CIDR,17.248.0.0/16,no-resolve
+IP-CIDR,17.253.0.0/16,no-resolve
