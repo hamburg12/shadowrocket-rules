@@ -1,5 +1,5 @@
 #Apple Edge&Route
-#Update time: 2026-07-01
+#Update time: 2026-07-02
 
 DOMAIN-SUFFIX,certs.apple.com
 DOMAIN-SUFFIX,time-ios.apple.com
@@ -219,4 +219,4 @@ DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,relay.icloud.com
 DOMAIN-SUFFIX,mask.apple-dns.net
 #DOMAIN-SUFFIX,icloud.com
-IP-CIDR,144.178.0.0/19
+IP-CIDR,144.178.0.0/19,no-resolve
