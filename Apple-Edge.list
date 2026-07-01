@@ -49,7 +49,6 @@ DOMAIN-SUFFIX,siri-edge.apple.com
 DOMAIN-SUFFIX,assistant-edge.apple.com
 DOMAIN-SUFFIX,ml-cdn.apple.com
 DOMAIN-SUFFIX,ml-edge.apple.com
-DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud-edge.apple.com
 DOMAIN-SUFFIX,api.icloud.com
@@ -219,4 +218,5 @@ DOMAIN-SUFFIX,ohttp-relay1.fastly-edge.com
 DOMAIN-SUFFIX,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,relay.icloud.com
 DOMAIN-SUFFIX,mask.apple-dns.net
+#DOMAIN-SUFFIX,icloud.com
 IP-CIDR,144.178.0.0/19
