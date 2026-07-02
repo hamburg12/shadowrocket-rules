@@ -1,7 +1,7 @@
-# Apple
-#Update time: 2026-07-02
+#  Apple
+# Update time: 2026-07-02
 
-#AppleIdentityFederation（Apple账户身份认证网络）
+# AppleIdentityFederation（Apple账户身份认证网络）
 DOMAIN-SUFFIX,appleid.apple.com
 DOMAIN-SUFFIX,idmsa.apple.com
 DOMAIN-SUFFIX,identity.apple.com
@@ -9,7 +9,7 @@ DOMAIN-SUFFIX,gsa.apple.com
 DOMAIN-SUFFIX,account.apple.com
 DOMAIN-SUFFIX,iforgot.apple.com
 
-#AppleCoreServices（Apple核心系统服务）
+# AppleCoreServices（Apple核心系统服务）
 DOMAIN-SUFFIX,configuration.apple.com
 DOMAIN-SUFFIX,configuration-v2.apple.com
 DOMAIN-SUFFIX,configuration.ls.apple.com
@@ -41,19 +41,19 @@ DOMAIN-SUFFIX,setupicloud.apple.com
 DOMAIN-SUFFIX,appleid-validation.apple.com
 DOMAIN-SUFFIX,init-p01st.apple.com
 
-#AppleTransparency/TrustServices（Apple证书透明度与信任服务）
+# AppleTransparency/TrustServices（Apple证书透明度与信任服务）
 DOMAIN-SUFFIX,transparency.apple.com
 DOMAIN-SUFFIX,certificate-transparency.apple.com
 DOMAIN-SUFFIX,log.apple.com
 DOMAIN-SUFFIX,trustd.apple.com
 
-#AppleSecurityServices（Apple系统安全与启动验证服务）
+# AppleSecurityServices（Apple系统安全与启动验证服务）
 DOMAIN-SUFFIX,security.apple.com
 DOMAIN-SUFFIX,security-edge.apple.com
 DOMAIN-SUFFIX,secureboot.apple.com
 DOMAIN-SUFFIX,secureboot-edge.apple.com
 
-#AppleDeviceCheck/AppAttest/SecurityAttestation（Apple设备真实性与安全证明）
+# AppleDeviceCheck/AppAttest/SecurityAttestation（Apple设备真实性与安全证明）
 DOMAIN-SUFFIX,devicecheck.apple.com
 DOMAIN-SUFFIX,api.devicecheck.apple.com
 DOMAIN-SUFFIX,attestation.apple.com
@@ -69,19 +69,19 @@ DOMAIN-SUFFIX,mdm.apple.com
 DOMAIN-SUFFIX,gsas.apple.com
 DOMAIN-SUFFIX,static.ess.apple.com
 
-#AppleCaptivePortalLegacyDetection（Apple历史门户认证检测域名）
+# AppleCaptivePortalLegacyDetection（Apple历史门户认证检测域名）
 DOMAIN-SUFFIX,itools.info
 DOMAIN-SUFFIX,airport.us
 DOMAIN-SUFFIX,ibook.info
 DOMAIN-SUFFIX,appleiphonecell.com
 DOMAIN-SUFFIX,thinkdifferent.us
 
-#AppleVoiceIntelligence（Siri/语音听写服务）
+# AppleVoiceIntelligence（Siri/语音听写服务）
 DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,dictation.apple.com
 DOMAIN-SUFFIX,guzzoni.smoot.apple.com
 
-#AppleIntelligence/SiriBackend（Apple智能与Siri后端服务）
+# AppleIntelligence/SiriBackend（Apple智能与Siri后端服务）
 DOMAIN-SUFFIX,assistant.apple.com
 DOMAIN-SUFFIX,api.siri.apple.com
 DOMAIN-SUFFIX,siri-edge.apple.com
@@ -90,7 +90,7 @@ DOMAIN-SUFFIX,siri-query.apple.com
 DOMAIN-SUFFIX,speech.apple.com
 DOMAIN-SUFFIX,voice.apple.com
 
-#AppleAI/MLServices（Apple机器学习与模型服务）
+# AppleAI/MLServices（Apple机器学习与模型服务）
 DOMAIN-SUFFIX,ml.apple.com
 DOMAIN-SUFFIX,ml-api.apple.com
 DOMAIN-SUFFIX,ml-cdn.apple.com
@@ -98,11 +98,11 @@ DOMAIN-SUFFIX,ml-edge.apple.com
 DOMAIN-SUFFIX,ml-gateway.apple.com
 DOMAIN-SUFFIX,neural.apple.com
 
-#PrivateCloudCompute（Apple云端AI推理平台）
+# PrivateCloudCompute（Apple云端AI推理平台）
 DOMAIN-SUFFIX,pcc.apple.com
 DOMAIN-SUFFIX,pcc-support.apple.com
 
-#iCloudServices（iCloud云服务）
+# iCloudServices（iCloud云服务）
 DOMAIN-SUFFIX,mask-h2.icloud.com
 DOMAIN-SUFFIX,mask-api.icloud.com
 DOMAIN-SUFFIX,mask-h3.icloud.com
@@ -110,7 +110,7 @@ DOMAIN-SUFFIX,relay-edge.icloud.com
 DOMAIN-SUFFIX,mask-relay.apple.com
 DOMAIN-SUFFIX,relay.apple.com
 
-#AppleInternalServiceMesh（Apple内部服务网关）
+# AppleInternalServiceMesh（Apple内部服务网关）
 DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,ls1.apple.com
 DOMAIN-SUFFIX,ls2.apple.com
@@ -122,7 +122,7 @@ DOMAIN-SUFFIX,service.apple.com
 DOMAIN-SUFFIX,service-edge.apple.com
 DOMAIN-SUFFIX,coreapi.apple.com
 
-#AppleInternalRouting&ServiceInfrastructure（Apple内部服务路由基础设施）
+# AppleInternalRouting&ServiceInfrastructure（Apple内部服务路由基础设施）
 DOMAIN-SUFFIX,cloudkit.apple.com
 DOMAIN-SUFFIX,ckdatabase.apple.com
 DOMAIN-SUFFIX,ckdatabase-edge.apple.com
@@ -141,7 +141,7 @@ DOMAIN-SUFFIX,cloudkit-dispatch.apple.com
 DOMAIN-SUFFIX,siri-routing.apple.com
 DOMAIN-SUFFIX,siri-dispatch.apple.com
 
-#AppleIDS/iMessage/FaceTime（Apple实时通信服务）
+# AppleIDS/iMessage/FaceTime（Apple实时通信服务）
 DOMAIN-SUFFIX,ids.apple.com
 DOMAIN-SUFFIX,identity.push.apple.com
 DOMAIN-SUFFIX,facetime.apple.com
@@ -149,7 +149,7 @@ DOMAIN-SUFFIX,relay.push.apple.com
 DOMAIN-SUFFIX,p04-keyvalueservice.icloud.com
 DOMAIN-SUFFIX,setup.push.apple.com
 
-#AppleFindMyNetwork（Apple查找网络）
+# AppleFindMyNetwork（Apple查找网络）
 DOMAIN-SUFFIX,findmy.apple.com
 DOMAIN-SUFFIX,fmip.icloud.com
 DOMAIN-SUFFIX,fmipmobile.icloud.com
@@ -159,12 +159,12 @@ DOMAIN-SUFFIX,fmfmobile.icloud.com
 DOMAIN-SUFFIX,findmyfriends.icloud.com
 
 
-#AppleDeviceProvisioning（Apple设备注册与配置服务）
+# AppleDeviceProvisioning（Apple设备注册与配置服务）
 DOMAIN-SUFFIX,device-auth.apple.com
 DOMAIN-SUFFIX,device-registration.apple.com
 DOMAIN-SUFFIX,device-management.apple.com
 
-#AppleActivation/RestoreInfrastructure（Apple设备激活与恢复服务）
+# AppleActivation/RestoreInfrastructure（Apple设备激活与恢复服务）
 DOMAIN-SUFFIX,albert.apple.com
 DOMAIN-SUFFIX,gs.apple.com
 DOMAIN-SUFFIX,init-p01md.apple.com
@@ -177,10 +177,10 @@ DOMAIN-SUFFIX,recovery.apple.com
 DOMAIN-SUFFIX,activation.apple.com
 DOMAIN-SUFFIX,activation.edge.apple.com
 
-#AppleSystemUpdateInfrastructure（Apple系统更新基础设施）
+# AppleSystemUpdateInfrastructure（Apple系统更新基础设施）
 DOMAIN-SUFFIX,amp.shazam.com
 
-#DeveloperServices（Apple开发者与测试服务）
+# DeveloperServices（Apple开发者与测试服务）
 DOMAIN-SUFFIX,download.developer.apple.com
 DOMAIN-SUFFIX,developer.apple.com
 DOMAIN-SUFFIX,appleworldwidedeveloper.hb-api.omtrdc.net
@@ -190,33 +190,31 @@ DOMAIN-SUFFIX,api.apple-cloudkit.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,wps.apple.com
 
-#AppStore&MediaServices（AppStore与媒体服务）
-DOMAIN-SUFFIX,bag.itunes.apple.com
-DOMAIN-SUFFIX,bag.apple.com
+# AppStore&MediaServices（AppStore与媒体服务）
 DOMAIN-SUFFIX,storekit.itunes.apple.com
 DOMAIN-SUFFIX,p21-buy.itunes.apple.com
 DOMAIN-SUFFIX,buy.itunes.apple.com
 DOMAIN-SUFFIX,inappcheck.itunes.apple.com
 
-#ApplePay&Wallet（Apple支付与钱包服务）
+# ApplePay&Wallet（Apple支付与钱包服务）
 DOMAIN-SUFFIX,apple-pay.com
 DOMAIN-SUFFIX,passkit.apple.com
 
-#AppleNews&Stocks（Apple新闻与股票服务）
+# AppleNews&Stocks（Apple新闻与股票服务）
 DOMAIN-SUFFIX,news.apple.com
 DOMAIN-SUFFIX,stocks.apple.com
 
-#AppleHealth&Fitness（Apple健康与健身服务）
+# AppleHealth&Fitness（Apple健康与健身服务）
 DOMAIN-SUFFIX,health.apple.com
 DOMAIN-SUFFIX,fitness.apple.com
 DOMAIN-SUFFIX,activity.apple.com
 
-#AppleEducationServices（Apple教育服务）
+# AppleEducationServices（Apple教育服务）
 DOMAIN-SUFFIX,classroom.apple.com
 DOMAIN-SUFFIX,school.apple.com
 DOMAIN-SUFFIX,education.apple.com
 
-#PrivacyRelayServices（Apple隐私中继服务）
+# PrivacyRelayServices（Apple隐私中继服务）
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN-SUFFIX,apple-relay.fastly-edge.com
 DOMAIN-SUFFIX,relay-edge.apple-dns.net
@@ -227,7 +225,7 @@ DOMAIN-SUFFIX,mask.apple-dns.net
 DOMAIN-SUFFIX,mask.icloud.com
 IP-CIDR,65.199.22.0/23,no-resolve
 
-#AppleAutonomousSystemNetwork（Apple官方网络）
+# AppleAutonomousSystemNetwork（Apple官方网络）
 IP-CIDR,17.0.0.0/8,no-resolve
 
 #DOMAIN-SUFFIX,apple.com
