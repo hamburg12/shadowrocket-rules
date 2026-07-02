@@ -1,10 +1,16 @@
 #Microsoft
-#Update time: 2026-07-01
+#Update time: 2026-07-02
 
+DOMAIN-SUFFIX,update.code.visualstudio.com
+DOMAIN-SUFFIX,gallery.vsassets.io
+DOMAIN-SUFFIX,code.visualstudio.com
+DOMAIN-SUFFIX,vscode.dev
 DOMAIN-SUFFIX,api.cognitive.microsoft.com
 DOMAIN-SUFFIX,microsofttranslator.com
 DOMAIN-SUFFIX,api.translate.microsoft.com
 DOMAIN-SUFFIX,translatoruser.intl.microsoft.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,outlook.com
@@ -36,6 +42,10 @@ DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,microsoftonline-p.com
 DOMAIN-SUFFIX,microsoftstore.com
 DOMAIN-SUFFIX,msappproxy.net
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,acctcdn.msftauth.net
+DOMAIN-SUFFIX,logincdn.msftauth.net
+DOMAIN-SUFFIX,graph.microsoft.com
 DOMAIN-SUFFIX,powerbi.com
 DOMAIN-SUFFIX,login.live.com
 DOMAIN-SUFFIX,login.windows.net
@@ -43,9 +53,6 @@ DOMAIN-SUFFIX,sts.windows.net
 DOMAIN-SUFFIX,static2.sharepointonline.com
 DOMAIN-SUFFIX,settings-win.data.microsoft.com
 DOMAIN-SUFFIX,vortex.data.microsoft.com
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,windows.com
-DOMAIN-SUFFIX,windows.net
 IP-CIDR,40.92.0.0/15,no-resolve
 IP-CIDR,40.107.0.0/16,no-resolve
 IP-CIDR,52.100.0.0/14,no-resolve
