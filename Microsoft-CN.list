@@ -1,5 +1,5 @@
 #Microsoft-CN
-#Update time: 2026-07-01
+#Update time: 2026-07-02
 
 #CN
 DOMAIN-SUFFIX,edge.microsoft.com
@@ -26,10 +26,6 @@ DOMAIN-SUFFIX,cdn.bing.com
 DOMAIN-SUFFIX,akadns.net
 
 #Edge
-DOMAIN-SUFFIX,update.code.visualstudio.com
-DOMAIN-SUFFIX,gallery.vsassets.io
-DOMAIN-SUFFIX,code.visualstudio.com
-DOMAIN-SUFFIX,vscode.dev
 DOMAIN-SUFFIX,azure.com
 DOMAIN-SUFFIX,azure-apim.net
 DOMAIN-SUFFIX,azurewebsites.net
@@ -47,9 +43,6 @@ DOMAIN-SUFFIX,aka.ms
 DOMAIN-SUFFIX,visualstudio.com
 DOMAIN-SUFFIX,nuget.org
 DOMAIN-SUFFIX,codeplex.com
-DOMAIN-SUFFIX,acctcdn.msftauth.net
-DOMAIN-SUFFIX,logincdn.msftauth.net
-DOMAIN-SUFFIX,graph.microsoft.com
 DOMAIN-SUFFIX,c.s-microsoft.com
 DOMAIN-SUFFIX,store-images.s-microsoft.com
 IP-CIDR,13.107.6.152/31,no-resolve
