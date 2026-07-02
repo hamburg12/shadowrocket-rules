@@ -1,5 +1,5 @@
-#Apple Edge&Route
-#Update time: 2026-07-02
+# Apple Edge&Route
+# Update time: 2026-07-02
 
 DOMAIN-SUFFIX,time-ios.apple.com
 DOMAIN-SUFFIX,time-macos.apple.com
@@ -159,6 +159,8 @@ DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,applemusicconnect.com
 DOMAIN-SUFFIX,apple-livephotoskit.com
 DOMAIN-SUFFIX,amp-api-edge.apps.apple.com
+DOMAIN-SUFFIX,bag.itunes.apple.com
+DOMAIN-SUFFIX,bag.apple.com
 DOMAIN-SUFFIX,apptrailers.itunes.apple.com
 DOMAIN-SUFFIX,pd.itunes.apple.com
 DOMAIN-SUFFIX,amp-api-updates.apps.apple.com
