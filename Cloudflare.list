@@ -1,5 +1,5 @@
 #Cloudflare
-#Update time: 2026-07-02
+#Update time: 2026-07-04
 
 #CloudflarePlatformInfrastructure（Cloudflare平台基础设施域名）
 #DOMAIN-SUFFIX,cdnjs.cloudflare.com（建议在规则最高层直连）
@@ -26,8 +26,8 @@ DOMAIN-SUFFIX,embed.cloudflarestream.com
 DOMAIN-SUFFIX,speed.cloudflare.com
 DOMAIN-SUFFIX,cloudflareclient.com
 DOMAIN-SUFFIX,support-chat.cloudflare.dev
-#DOMAIN-SUFFIX,cloudflare.com（建议在规则最底层兜底）
-#DOMAIN-SUFFIX,cloudflare.net（建议在规则最底层兜底）
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare.net
 
 #CloudflarePublicDNS（Cloudflare公共DNS服务）
 IP-CIDR,1.1.1.1/32,no-resolve
