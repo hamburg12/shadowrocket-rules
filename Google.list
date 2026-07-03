@@ -1,6 +1,6 @@
 #  Google
 
-# GoogleRegionalSearchEntrypoints（Google各地区本地化搜索入口）
+# Google Regional Search Entrypoints（Google 各地区本地化搜索入口）
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,google.com.hk
 DOMAIN-SUFFIX,google.com.sg
@@ -49,7 +49,6 @@ DOMAIN-SUFFIX,googledomains.com
 
 # GoogleAPIs&BackendServices（Google后端接口服务）
 DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,clientservices.googleapis.com
 DOMAIN-SUFFIX,proto.googleapis.com
 DOMAIN-SUFFIX,notifications-pa.googleapis.com
@@ -75,8 +74,18 @@ DOMAIN-SUFFIX,workspace.google.com
 
 # GoogleMediaPlatform（Google媒体平台服务）
 DOMAIN-SUFFIX,photos.google.com
-#DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googleusercontent.com
+
+# YouTubePlatform（YouTube视频平台）
+#DOMAIN-SUFFIX,youtube.com
+#DOMAIN-SUFFIX,youtu.be
+#DOMAIN-SUFFIX,youtube-nocookie.com
+#DOMAIN-SUFFIX,ytimg.com
+#DOMAIN-SUFFIX,googlevideo.com
+#DOMAIN-SUFFIX,s.youtube.com
+
+# Chrome&Chromium（Chrome浏览器生态）
 DOMAIN-SUFFIX,chrome.com
 DOMAIN-SUFFIX,googlechrome.com
 DOMAIN-SUFFIX,chromewebstore.com
@@ -111,8 +120,8 @@ DOMAIN-SUFFIX,run.app
 
 # GoogleDeveloperPlatform（Google开发者平台）
 DOMAIN-SUFFIX,developers.google.com
-#DOMAIN-SUFFIX,google.dev
-#DOMAIN-SUFFIX,web.dev
+DOMAIN-SUFFIX,google.dev
+DOMAIN-SUFFIX,web.dev
 
 # GoogleFonts&Assets（Google字体与静态资源）
 DOMAIN-SUFFIX,fonts.googleapis.com
@@ -149,7 +158,13 @@ DOMAIN-SUFFIX,blogger.googleusercontent.com
 DOMAIN-SUFFIX,blogger.googleblog.com
 DOMAIN-SUFFIX,bp.blogspot.com
 
-# Google Fiber / GFiber（Google 宽带服务）
+# GooglePublicDNS（Google公共DNS服务）
+#IP-CIDR,8.8.8.8/32,no-resolve
+#IP-CIDR,8.8.4.4/32,no-resolve
+#IP-CIDR6,2001:4860:4860::8888/128,no-resolve
+#IP-CIDR6,2001:4860:4860::8844/128,no-resolve
+
+# GoogleFiber/GFiber（Google宽带服务）
 DOMAIN-SUFFIX,fiber.google.com
 DOMAIN-SUFFIX,gigabit.google.com
 DOMAIN-SUFFIX,fiberstatus.com
@@ -160,50 +175,120 @@ DOMAIN-SUFFIX,gfiber.speedtestcustom.com
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,209.85.128.0/17,no-resolve
 
-# 补充
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,blogspot
-DOMAIN-SUFFIX,goog
-DOMAIN-SUFFIX,admin.recaptcha.net
-DOMAIN-SUFFIX,ampproject.org
-DOMAIN-SUFFIX,androidify.com
-DOMAIN-SUFFIX,autodraw.com
-DOMAIN-SUFFIX,capitalg.com
-DOMAIN-SUFFIX,certificate-transparency.org
-DOMAIN-SUFFIX,chromeexperiments.com
-DOMAIN-SUFFIX,creativelab5.com
-DOMAIN-SUFFIX,debug.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,dialogflow.com
-DOMAIN-SUFFIX,firebaseio.com
-DOMAIN-SUFFIX,getmdl.io
-DOMAIN-SUFFIX,getoutline.org
-DOMAIN-SUFFIX,gmodules.com
-DOMAIN-SUFFIX,godoc.org
-DOMAIN-SUFFIX,golang.org
-DOMAIN-SUFFIX,gv.com
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,gwtproject.org
-DOMAIN-SUFFIX,itasoftware.com
-DOMAIN-SUFFIX,madewithcode.com
-DOMAIN-SUFFIX,material.io
-DOMAIN-SUFFIX,polymer-project.org
-DOMAIN-SUFFIX,shattered.io
-DOMAIN-SUFFIX,synergyse.com
-DOMAIN-SUFFIX,telephony.goog
-DOMAIN-SUFFIX,tensorflow.org
-DOMAIN-SUFFIX,tfhub.dev
-DOMAIN-SUFFIX,tiltbrush.com
-DOMAIN-SUFFIX,waveprotocol.org
-DOMAIN-SUFFIX,waymo.com
-DOMAIN-SUFFIX,webmproject.org
-DOMAIN-SUFFIX,webrtc.org
-DOMAIN-SUFFIX,whatbrowser.org
-DOMAIN-SUFFIX,widevine.com
-DOMAIN-SUFFIX,x.company
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+# GoogleNetworkIPv4（Google官方IPv4网络段）
+IP-CIDR,8.8.4.0/24,no-resolve
+IP-CIDR,8.8.8.0/24,no-resolve
+IP-CIDR,8.34.208.0/20,no-resolve
+IP-CIDR,8.35.192.0/20,no-resolve
+IP-CIDR,8.228.0.0/14,no-resolve
+IP-CIDR,8.232.0.0/14,no-resolve
+IP-CIDR,8.236.0.0/15,no-resolve
+IP-CIDR,23.236.48.0/20,no-resolve
+IP-CIDR,23.251.128.0/19,no-resolve
+IP-CIDR,34.0.0.0/15,no-resolve
+IP-CIDR,34.2.0.0/16,no-resolve
+IP-CIDR,34.3.0.0/23,no-resolve
+IP-CIDR,34.3.3.0/24,no-resolve
+IP-CIDR,34.3.4.0/24,no-resolve
+IP-CIDR,34.3.8.0/21,no-resolve
+IP-CIDR,34.3.16.0/20,no-resolve
+IP-CIDR,34.3.32.0/19,no-resolve
+IP-CIDR,34.3.64.0/18,no-resolve
+IP-CIDR,34.4.0.0/14,no-resolve
+IP-CIDR,34.8.0.0/13,no-resolve
+IP-CIDR,34.16.0.0/12,no-resolve
+IP-CIDR,34.32.0.0/11,no-resolve
+IP-CIDR,34.64.0.0/10,no-resolve
+IP-CIDR,34.128.0.0/10,no-resolve
+IP-CIDR,35.184.0.0/13,no-resolve
+IP-CIDR,35.192.0.0/14,no-resolve
+IP-CIDR,35.196.0.0/15,no-resolve
+IP-CIDR,35.198.0.0/16,no-resolve
+IP-CIDR,35.199.0.0/17,no-resolve
+IP-CIDR,35.199.128.0/18,no-resolve
+IP-CIDR,35.200.0.0/13,no-resolve
+IP-CIDR,35.208.0.0/12,no-resolve
+IP-CIDR,35.224.0.0/12,no-resolve
+IP-CIDR,35.240.0.0/13,no-resolve
+IP-CIDR,35.252.0.0/14,no-resolve
+IP-CIDR,64.15.112.0/20,no-resolve
+IP-CIDR,64.233.160.0/19,no-resolve
+IP-CIDR,66.102.0.0/20,no-resolve
+IP-CIDR,66.249.64.0/19,no-resolve
+IP-CIDR,70.32.128.0/19,no-resolve
+IP-CIDR,72.14.192.0/18,no-resolve
+IP-CIDR,74.114.24.0/21,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,104.154.0.0/15,no-resolve
+IP-CIDR,104.196.0.0/14,no-resolve
+IP-CIDR,104.237.160.0/19,no-resolve
+IP-CIDR,107.167.160.0/19,no-resolve
+IP-CIDR,107.178.192.0/18,no-resolve
+IP-CIDR,108.59.80.0/20,no-resolve
+IP-CIDR,108.170.192.0/18,no-resolve
+IP-CIDR,108.177.0.0/17,no-resolve
+IP-CIDR,130.211.0.0/16,no-resolve
+IP-CIDR,136.22.2.0/23,no-resolve
+IP-CIDR,136.22.4.0/23,no-resolve
+IP-CIDR,136.22.8.0/22,no-resolve
+IP-CIDR,136.22.160.0/20,no-resolve
+IP-CIDR,136.22.176.0/21,no-resolve
+IP-CIDR,136.22.184.0/23,no-resolve
+IP-CIDR,136.22.186.0/24,no-resolve
+IP-CIDR,136.23.48.0/20,no-resolve
+IP-CIDR,136.23.64.0/18,no-resolve
+IP-CIDR,136.64.0.0/11,no-resolve
+IP-CIDR,136.107.0.0/16,no-resolve
+IP-CIDR,136.108.0.0/14,no-resolve
+IP-CIDR,136.112.0.0/13,no-resolve
+IP-CIDR,136.120.0.0/22,no-resolve
+IP-CIDR,136.124.0.0/15,no-resolve
+IP-CIDR,142.250.0.0/15,no-resolve
+IP-CIDR,146.148.0.0/17,no-resolve
+IP-CIDR,162.120.128.0/17,no-resolve
+IP-CIDR,162.216.148.0/22,no-resolve
+IP-CIDR,162.222.176.0/21,no-resolve
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,172.217.0.0/16,no-resolve
+IP-CIDR,172.253.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,173.255.112.0/20,no-resolve
+IP-CIDR,192.104.160.0/23,no-resolve
+IP-CIDR,192.158.28.0/22,no-resolve
+IP-CIDR,192.178.0.0/15,no-resolve
+IP-CIDR,193.186.4.0/24,no-resolve
+IP-CIDR,199.36.154.0/23,no-resolve
+IP-CIDR,199.36.156.0/24,no-resolve
+IP-CIDR,199.192.112.0/22,no-resolve
+IP-CIDR,199.223.232.0/21,no-resolve
+IP-CIDR,207.175.0.0/16,no-resolve
+IP-CIDR,207.223.160.0/20,no-resolve
+IP-CIDR,208.65.152.0/22,no-resolve
+IP-CIDR,208.68.108.0/22,no-resolve
+IP-CIDR,208.81.188.0/22,no-resolve
+IP-CIDR,208.117.224.0/19,no-resolve
+IP-CIDR,209.85.128.0/17,no-resolve
+IP-CIDR,216.58.192.0/19,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR,216.239.32.0/19,no-resolve
+IP-CIDR,216.252.220.0/22,no-resolve
+
+# GoogleNetworkIPv6（Google官方IPv6网络段）
+IP-CIDR6,2001:4860::/32,no-resolve
+IP-CIDR6,2404:6800::/32,no-resolve
+IP-CIDR6,2404:f340::/32,no-resolve
+IP-CIDR6,2600:1900::/28,no-resolve
+IP-CIDR6,2605:ef80::/32,no-resolve
+IP-CIDR6,2606:40::/32,no-resolve
+IP-CIDR6,2606:73c0::/32,no-resolve
+IP-CIDR6,2607:1c0:241:40::/60,no-resolve
+IP-CIDR6,2607:1c0:300::/40,no-resolve
+IP-CIDR6,2607:f8b0::/32,no-resolve
+IP-CIDR6,2620:11a:a000::/40,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
+IP-CIDR6,2800:3f0::/32,no-resolve
+IP-CIDR6,2a00:1450::/32,no-resolve
+IP-CIDR6,2c0f:fb50::/32,no-resolve
 
 # GoogleAdvertisingServices（Google广告与营销服务）
 DOMAIN-SUFFIX,pagead2.googlesyndication.com
