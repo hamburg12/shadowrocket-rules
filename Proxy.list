@@ -152,6 +152,7 @@ DOMAIN-SUFFIX,api-inference.huggingface.co
 DOMAIN-SUFFIX,endpoints.huggingface.cloud
 
 # 补充
+DOMAIN-SUFFIX,api.revenuecat.com
 DOMAIN,cdn.angruo.com
 DOMAIN-SUFFIX,battle.net
 DOMAIN-SUFFIX,blizzard.com
