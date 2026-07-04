@@ -1,6 +1,7 @@
 #Tencent
-#Update time: 2026-06-19
+#Update time: 2026-07-04
 
+# Core Communication（核心通信服务）
 DOMAIN-SUFFIX,weixin.qq.com
 DOMAIN-SUFFIX,api.weixin.qq.com
 DOMAIN-SUFFIX,qyapi.weixin.qq.com
@@ -14,7 +15,7 @@ DOMAIN-SUFFIX,sglong.weixin.qq.com
 DOMAIN-SUFFIX,frlong.weixin.qq.com
 DOMAIN-SUFFIX,dns.weixin.qq.com.cn
 DOMAIN-SUFFIX,paydns.wechatpay.cn
-#DOMAIN-SUFFIX,wxsmw.wxs.qq.com
+DOMAIN-SUFFIX,wxsmw.wxs.qq.com
 DOMAIN-SUFFIX,res.servicewechat.com
 DOMAIN-SUFFIX,launchwxacode.wxqcloud.qq.com.cn
 DOMAIN-SUFFIX,mp.weixin.qq.com
@@ -36,7 +37,7 @@ DOMAIN-SUFFIX,api2.mch.weixin.qq.com
 DOMAIN-SUFFIX,payapp.weixin.qq.com
 DOMAIN-SUFFIX,pay.weixin.qq.com
 DOMAIN-SUFFIX,log.weixin.qq.com
-#DOMAIN-SUFFIX,cube.weixinbridge.com
+DOMAIN-SUFFIX,cube.weixinbridge.com
 DOMAIN-SUFFIX,localhost.weixin.qq.com
 DOMAIN-SUFFIX,apd-pcdnwxstat.teg.tencent-cloud.net
 DOMAIN-SUFFIX,servicewechat.com
@@ -66,6 +67,7 @@ DOMAIN-SUFFIX,scan.weixin.qq.com
 DOMAIN-SUFFIX,szextshort.weixin.qq.com
 DOMAIN-SUFFIX,szminorshort.weixin.qq.com
 DOMAIN-SUFFIX,extshort.weixin.qq.com
+# Media&FileTransfer（多媒体与文件传输）
 DOMAIN-SUFFIX,mmcdn.qpic.cn
 DOMAIN-SUFFIX,mmchatpic.qpic.cn
 DOMAIN-SUFFIX,mmsns.qpic.cn
@@ -95,6 +97,7 @@ DOMAIN-SUFFIX,video.store.qq.com
 DOMAIN-SUFFIX,audio.chat.qq.com
 DOMAIN-SUFFIX,dl.stream.qqmusic.qq.com
 DOMAIN-SUFFIX,dl.music.qq.com
+# WeChatDesktop&Web（微信PC/Web）
 DOMAIN-SUFFIX,login.weixin.qq.com
 DOMAIN-SUFFIX,login.wx.qq.com
 DOMAIN-SUFFIX,web.wechat.com
@@ -106,27 +109,33 @@ DOMAIN-SUFFIX,filehelper.weixin.qq.com
 DOMAIN-SUFFIX,update.wechat.com
 DOMAIN-SUFFIX,dl.wechat.com
 DOMAIN-SUFFIX,wework.qpic.cn
-#DOMAIN-SUFFIX,isdspeed.qq.com
+# WeChatSDKs&Tracking（微信SDK接口）
+DOMAIN-SUFFIX,isdspeed.qq.com
 DOMAIN-SUFFIX,support.weixin.qq.com
+# TencentPushNotificationService（腾讯移动推送服务）
 DOMAIN-SUFFIX,guid.tpns.sh.tencent.com
 DOMAIN-SUFFIX,access1.tpns.sh.tencent.com
+IP-CIDR,61.151.229.52/32,no-resolve
+# Security&SafeBrowsing（微信安全与链接防护）
 DOMAIN-SUFFIX,safebrowsing.urlsec.qq.com
 DOMAIN-SUFFIX,urlsec.qq.com
+# WeChatMiniProgramServices（微信小程序云开发与托管服务）
 DOMAIN-SUFFIX,tcb.qcloud.la
 DOMAIN-SUFFIX,cloudbase.net
 DOMAIN-SUFFIX,wx.cloud.tencent.com
-DOMAIN-KEYWORD,wechat
-DOMAIN-KEYWORD,weixin
-DOMAIN-SUFFIX,weixin.com
-DOMAIN-SUFFIX,szfdc.wx.qq.com
-DOMAIN-SUFFIX,connect.qq.com
-#DOMAIN-SUFFIX,weixinbridge.com
-#DOMAIN-SUFFIX,wxs.qq.com
-DOMAIN-SUFFIX,smtcdns.com
-IP-CIDR,61.151.229.52/32,no-resolve
+# WeChatOfficialAPI/CallbackNetwork（微信官方API与回调服务器网络）
 IP-CIDR,101.226.62.0/24,no-resolve
 IP-CIDR,140.207.54.0/24,no-resolve
 IP-CIDR,101.91.0.0/16,no-resolve
+# WeChatMediaCDN（微信图片与消息资源CDN）
+IP-CIDR,43.156.86.6/32,no-resolve
+IP-CIDR,43.156.86.56/32,no-resolve
+IP-CIDR,43.156.86.161/32,no-resolve
+IP-CIDR,101.32.133.63/32,no-resolve
+IP-CIDR,101.32.133.83/32,no-resolve
+IP-CIDR,129.226.1.35/32,no-resolve
+IP-CIDR,43.174.6.35/32,no-resolve
+IP-CIDR,43.174.6.148/32,no-resolve
 IP-CIDR,113.96.12.0/24,no-resolve
 IP-CIDR,113.96.16.109/32,no-resolve
 IP-CIDR,113.96.16.89/32,no-resolve
@@ -158,8 +167,35 @@ IP-CIDR,27.155.118.0/24,no-resolve
 IP-CIDR,116.211.185.0/24,no-resolve
 IP-CIDR,116.211.207.0/24,no-resolve
 IP-CIDR,116.211.232.0/24,no-resolve
+IP-CIDR,113.105.153.0/24,no-resolve
+IP-CIDR,183.131.39.0/24,no-resolve
+IP-CIDR,183.61.254.0/24,no-resolve
+IP-CIDR,113.105.171.0/24,no-resolve
+IP-CIDR,222.186.189.0/24,no-resolve
+IP-CIDR,116.211.207.0/24,no-resolve
+IP-CIDR,116.211.185.0/24,no-resolve
+IP-CIDR,116.211.232.0/24,no-resolve
+IP-CIDR,14.17.83.0/24,no-resolve
+IP-CIDR,183.47.115.0/24,no-resolve
+IP-CIDR,113.96.12.0/24,no-resolve
+IP-CIDR,113.105.171.0/24,no-resolve
+IP-CIDR,125.88.186.0/24,no-resolve
+IP-CIDR,27.155.118.0/24,no-resolve
+IP-CIDR,58.217.183.0/24,no-resolve
+IP-CIDR,182.106.148.0/24,no-resolve
+IP-CIDR,125.88.187.0/24,no-resolve
+IP-CIDR,180.111.198.0/24,no-resolve
 IP-CIDR,218.16.120.0/24,no-resolve
+IP-CIDR,183.61.254.0/24,no-resolve
+IP-CIDR,113.105.153.0/24,no-resolve
+IP-CIDR,183.61.169.0/24,no-resolve
 IP-CIDR,222.94.109.50/32,no-resolve
+IP-CIDR,222.186.27.0/24,no-resolve
+IP-CIDR,180.101.241.0/24,no-resolve
+IP-CIDR,180.101.246.0/24,no-resolve
+IP-CIDR,182.40.121.0/24,no-resolve
+IP-CIDR,183.131.39.0/24,no-resolve
+# WeChatMiniProgramCDN（微信小程序资源CDN）
 IP-CIDR,61.170.59.0/24,no-resolve
 IP-CIDR,61.170.65.0/24,no-resolve
 IP-CIDR,117.68.71.0/24,no-resolve
@@ -183,6 +219,7 @@ IP-CIDR,60.164.5.0/24,no-resolve
 IP-CIDR,114.230.137.0/24,no-resolve
 IP-CIDR,223.247.74.0/24,no-resolve
 IP-CIDR,219.144.91.0/24,no-resolve
+# WeChatClientUpdateCDN（微信客户端更新与下载CDN）
 IP-CIDR,58.216.30.0/24,no-resolve
 IP-CIDR,114.80.149.0/24,no-resolve
 IP-CIDR,117.68.18.0/24,no-resolve
@@ -191,6 +228,11 @@ IP-CIDR,117.89.179.0/24,no-resolve
 IP-CIDR,117.21.234.0/24,no-resolve
 IP-CIDR,180.153.82.0/24,no-resolve
 IP-CIDR,222.186.162.0/24,no-resolve
+# WeChatCoreCommunicationNetwork（微信核心通信网络）
+IP-CIDR,43.128.17.30/32,no-resolve
+IP-CIDR,43.153.165.171/32,no-resolve
+IP-CIDR,43.153.165.235/32,no-resolve
+IP-CIDR,43.153.191.176/32,no-resolve
 IP-CIDR,61.151.230.185/32,no-resolve
 IP-CIDR,61.151.230.226/32,no-resolve
 IP-CIDR,101.226.137.107/32,no-resolve
@@ -204,5 +246,7 @@ IP-CIDR,117.89.176.31/32,no-resolve
 IP-CIDR,123.151.48.193/32,no-resolve
 IP-CIDR,180.101.242.212/32,no-resolve
 IP-CIDR,180.101.242.227/32,no-resolve
+# WeChatPayAPINetwork（微信支付接口网络）
 IP-CIDR,1.13.37.0/24,no-resolve
+# WeChatQUICCommunicationNetwork（微信QUIC通信网络）
 IP-CIDR,101.227.131.254/32,no-resolve
