@@ -1,7 +1,7 @@
 #!name=国内广告拦截规则集
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
 #AdBlock_Local
-#Update time: 2026-06-21
+#Update time: 2026-07-04
 
 [Rule]
 # Alibaba
@@ -120,7 +120,6 @@ DOMAIN-SUFFIX,dataflow.biliapi.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,ad.bilibili.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,ads.bilibili.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,log.bilibili.com,REJECT-DROP,extended-matching,pre-matching
-#DOMAIN-SUFFIX,api.live.bilibili.com
 DOMAIN-SUFFIX,live-trace.bilibili.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,ad.track.bilibili.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,biligame.com,REJECT-DROP,extended-matching,pre-matching
@@ -172,8 +171,8 @@ DOMAIN-WILDCARD,pglstatp-*-toutiao.com,REJECT-DROP,extended-matching,pre-matchin
 DOMAIN-WILDCARD,pglstatp-toutiao*.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-WILDCARD,pangolin-*-toutiao.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-WILDCARD,pangolin-*-toutiao*.com,REJECT-DROP,extended-matching,pre-matching
-#DOMAIN-WILDCARD,pangolin-dsp-toutiao*.com
-#DOMAIN-WILDCARD,pangolin-sdk-toutiao*.com
+DOMAIN-WILDCARD,pangolin-dsp-toutiao*.com,REJECT-DROP,extended-matching,pre-matching
+DOMAIN-WILDCARD,pangolin-sdk-toutiao*.com,REJECT-DROP,extended-matching,pre-matching
 # Carrotquest
 DOMAIN-SUFFIX,api-eu.carrotquest.app,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,api-eu.carrotquest.io,REJECT-DROP,extended-matching,pre-matching
