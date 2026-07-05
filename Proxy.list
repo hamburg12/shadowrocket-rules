@@ -151,6 +151,52 @@ DOMAIN-SUFFIX,huggingfaceusercontent.com
 DOMAIN-SUFFIX,api-inference.huggingface.co
 DOMAIN-SUFFIX,endpoints.huggingface.cloud
 
+# BBC/ITV（英国）
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,itv.com
+DOMAIN-SUFFIX,itvstatic.com
+DOMAIN-SUFFIX,ichef.bbci.co.uk
+DOMAIN-SUFFIX,static.files.bbci.co.uk
+DOMAIN-SUFFIX,bbc.gscontxt.net
+DOMAIN-SUFFIX,web-cdn.api.bbci.co.uk
+DOMAIN-SUFFIX,emp.bbci.co.uk
+DOMAIN-SUFFIX,static.bbci.co.uk
+DOMAIN-SUFFIX,r.bbci.co.uk
+DOMAIN-SUFFIX,vod-thumb-ww.live.cf.md.bbci.co.uk
+DOMAIN-SUFFIX,nav.files.bbci.co.uk
+DOMAIN-SUFFIX,britbox.com
+DOMAIN-SUFFIX,weather.files.bbci.co.uk
+DOMAIN-SUFFIX,gn-flagpoles.api.bbci.co.uk
+
+# TheNewYorkTimes（纽约时报）
+DOMAIN-SUFFIX,nytimes.com
+DOMAIN-SUFFIX,static.nytimes.com
+DOMAIN-SUFFIX,static01.nyt.com
+DOMAIN-SUFFIX,login.nytimes.com
+DOMAIN-SUFFIX,myaccount.nytimes.com
+DOMAIN-SUFFIX,subscribe.nytimes.com
+DOMAIN-SUFFIX,samizdat.nytimes.com
+DOMAIN-SUFFIX,meter-svc.nytimes.com
+DOMAIN-SUFFIX,nyt.com
+
+# Vimeo视频平台相关域名（Vimeo）
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,arclight.vimeo.com
+DOMAIN-SUFFIX,lensflare.vimeo.com
+DOMAIN-SUFFIX,player.vimeo.com
+DOMAIN-SUFFIX,i.vimeocdn.com
+DOMAIN-SUFFIX,f.vimeocdn.com
+DOMAIN-SUFFIX,skyfire.vimeocdn.com
+DOMAIN-SUFFIX,vod-progressive-ak.vimeocdn.com
+DOMAIN-SUFFIX,vod-adaptive-ak.vimeocdn.com
+DOMAIN-SUFFIX,download-video-ak.vimeocdn.com
+DOMAIN-SUFFIX,videoapi-sprites.vimeocdn.com
+DOMAIN-SUFFIX,vimeo.bynder.com
+DOMAIN-SUFFIX,vimeocdn.com
+DOMAIN-SUFFIX,player.vimeo.com
+DOMAIN-SUFFIX,extend.vimeocdn.com
+
 # 补充
 DOMAIN-SUFFIX,api.revenuecat.com
 DOMAIN-SUFFIX,api.snapkit.com
