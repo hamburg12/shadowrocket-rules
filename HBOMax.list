@@ -1,0 +1,13 @@
+# HBOMax/Max视频平台相关域名
+
+
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,play.max.com
+DOMAIN-SUFFIX,static-max.adobe.io
+DOMAIN-SUFFIX,bamgrid.com
+DOMAIN-SUFFIX,discomax.com
+DOMAIN-SUFFIX,dcuniverse.com
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com
+IP-CIDR,149.174.0.0/16,no-resolve
