@@ -158,6 +158,19 @@ DOMAIN-SUFFIX,p-fmip.icloud.com
 DOMAIN-SUFFIX,fmfmobile.icloud.com
 DOMAIN-SUFFIX,findmyfriends.icloud.com
 
+#ApplePushServices（Apple推送服务）
+DOMAIN-SUFFIX,init.push.apple.com
+DOMAIN-SUFFIX,push-edge.apple.com
+DOMAIN-SUFFIX,push-gateway.apple.com
+DOMAIN-SUFFIX,push-routing.apple.com
+DOMAIN-SUFFIX,push-control.apple.com
+DOMAIN-SUFFIX,push-config.apple.com
+DOMAIN-SUFFIX,push-dispatch.apple.com
+DOMAIN-SUFFIX,push-bootstrap.apple.com
+DOMAIN-SUFFIX,push-locator.apple.com
+DOMAIN-SUFFIX,push-geo.apple.com
+DOMAIN-SUFFIX,push-router.apple.com
+DOMAIN-SUFFIX,push-edge-routing.apple.com
 
 # AppleDeviceProvisioning（Apple设备注册与配置服务）
 DOMAIN-SUFFIX,device-auth.apple.com
