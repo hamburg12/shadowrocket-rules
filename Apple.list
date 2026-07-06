@@ -1,5 +1,5 @@
 #  Apple
-# Update time: 2026-07-06
+# Update time: 2026-07-07
 
 # AppleIdentityFederation（Apple账户身份认证网络）
 DOMAIN-SUFFIX,appleid.apple.com
@@ -204,11 +204,14 @@ DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,wps.apple.com
 
 # AppStore&MediaServices（AppStore与媒体服务）
+DOMAIN-SUFFIX,bag.itunes.apple.com
+DOMAIN-SUFFIX,bag.apple.com
 DOMAIN-SUFFIX,storekit.itunes.apple.com
 DOMAIN-SUFFIX,p21-buy.itunes.apple.com
 DOMAIN-WILDCARD,p*-buy.itunes.apple.com
 DOMAIN-SUFFIX,buy.itunes.apple.com
 DOMAIN-SUFFIX,inappcheck.itunes.apple.com
+DOMAIN-SUFFIX,init.itunes.apple.com
 
 # ApplePay&Wallet（Apple支付与钱包服务）
 DOMAIN-SUFFIX,apple-pay.com
