@@ -1,5 +1,5 @@
 # Apple Edge&Route
-# Update time: 2026-07-02
+# Update time: 2026-07-06
 
 DOMAIN-SUFFIX,time-ios.apple.com
 DOMAIN-SUFFIX,time-macos.apple.com
@@ -77,11 +77,11 @@ DOMAIN-SUFFIX,edge-bootstrap.apple.com
 DOMAIN-SUFFIX,edge.apple.com
 DOMAIN-SUFFIX,edge.icloud.com
 DOMAIN-SUFFIX,push-apple.com
-DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,api.push.apple.com
 DOMAIN-SUFFIX,registration.push.apple.com
 DOMAIN-SUFFIX,feedback.push.apple.com
 DOMAIN-SUFFIX,courier.push.apple.com
+DOMAIN-WILDCARD,*-courier.push.apple.com
 DOMAIN-SUFFIX,18-courier.push.apple.com
 DOMAIN-SUFFIX,37-courier.push.apple.com
 DOMAIN-SUFFIX,42-courier.push.apple.com
@@ -89,19 +89,7 @@ DOMAIN-SUFFIX,45-courier.push.apple.com
 DOMAIN-SUFFIX,47-courier.push.apple.com
 DOMAIN-SUFFIX,48-courier.push.apple.com
 DOMAIN-SUFFIX,gateway.push.apple.com
-DOMAIN-SUFFIX,init.push.apple.com
 DOMAIN-SUFFIX,2-courier.push.apple.com
-DOMAIN-SUFFIX,push-edge.apple.com
-DOMAIN-SUFFIX,push-gateway.apple.com
-DOMAIN-SUFFIX,push-routing.apple.com
-DOMAIN-SUFFIX,push-control.apple.com
-DOMAIN-SUFFIX,push-config.apple.com
-DOMAIN-SUFFIX,push-dispatch.apple.com
-DOMAIN-SUFFIX,push-bootstrap.apple.com
-DOMAIN-SUFFIX,push-locator.apple.com
-DOMAIN-SUFFIX,push-geo.apple.com
-DOMAIN-SUFFIX,push-router.apple.com
-DOMAIN-SUFFIX,push-edge-routing.apple.com
 DOMAIN-SUFFIX,push-token.apple.com
 DOMAIN-SUFFIX,push-auth.apple.com
 DOMAIN-SUFFIX,push-id.apple.com
