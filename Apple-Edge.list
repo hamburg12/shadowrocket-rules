@@ -1,5 +1,5 @@
 # Apple Edge&Route
-# Update time: 2026-07-06
+# Update time: 2026-07-07
 
 DOMAIN-SUFFIX,time-ios.apple.com
 DOMAIN-SUFFIX,time-macos.apple.com
@@ -53,6 +53,7 @@ DOMAIN-SUFFIX,setup.icloud.com
 DOMAIN-SUFFIX,content.icloud.com
 DOMAIN-SUFFIX,static.icloud.com
 DOMAIN-SUFFIX,ckdatabasews.icloud.com
+DOMAIN-WILDCARD,p*-ckdatabasews.icloud.com
 DOMAIN-SUFFIX,p01-ckdatabasews.icloud.com
 DOMAIN-SUFFIX,p02-ckdatabasews.icloud.com
 DOMAIN-SUFFIX,p03-ckdatabasews.icloud.com
@@ -147,13 +148,10 @@ DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,applemusicconnect.com
 DOMAIN-SUFFIX,apple-livephotoskit.com
 DOMAIN-SUFFIX,amp-api-edge.apps.apple.com
-DOMAIN-SUFFIX,bag.itunes.apple.com
-DOMAIN-SUFFIX,bag.apple.com
 DOMAIN-SUFFIX,apptrailers.itunes.apple.com
 DOMAIN-SUFFIX,pd.itunes.apple.com
 DOMAIN-SUFFIX,amp-api-updates.apps.apple.com
 DOMAIN-SUFFIX,odr.itunes.apple.com
-DOMAIN-SUFFIX,init.itunes.apple.com
 DOMAIN-SUFFIX,downloaddispatch.itunes.apple.com
 DOMAIN-SUFFIX,geo.apple.com
 DOMAIN-SUFFIX,geo-routing.apple.com
