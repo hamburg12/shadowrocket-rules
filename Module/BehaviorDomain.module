@@ -4,7 +4,7 @@
 #部分引用：https://github.com/Thoseyearsbrian/Aegis
 #部分引用：https://github.com/blackmatrix7/ios_rule_script
 #BehaviorDomain
-#Update time: 2026-07-04
+#Update time: 2026-07-07
 
 [Rule]
 # WeChat（微信）行为遥测服务
@@ -201,7 +201,7 @@ DOMAIN-SUFFIX,hispace.hicloud.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,logservice.hicloud.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,metrics1.data.hicloud.com,REJECT-DROP,extended-matching,pre-matching
 # Cloudflare 行为遥测服务
-DOMAIN-SUFFIX,cloudflareinsights.com,REJECT-DROP,extended-matching,pre-matching
+#DOMAIN-SUFFIX,cloudflareinsights.com,REJECT-DROP,extended-matching,pre-matching
 # Sentry 错误与遥测服务
 DOMAIN-SUFFIX,o33249.ingest.us.sentry.io,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,sentry-cdn.com,REJECT-DROP,extended-matching,pre-matching
