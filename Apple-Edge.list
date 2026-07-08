@@ -1,5 +1,5 @@
 # Apple Edge&Route
-# Update time: 2026-07-07
+# Update time: 2026-07-08
 
 DOMAIN-SUFFIX,time-ios.apple.com
 DOMAIN-SUFFIX,time-macos.apple.com
@@ -181,4 +181,8 @@ DOMAIN-SUFFIX,static.gc.apple.com
 DOMAIN-SUFFIX,profile.gc.apple.com
 DOMAIN-SUFFIX,support.apple.com
 DOMAIN-SUFFIX,getsupport.apple.com
+IP-CIDR,17.0.0.0/8,no-resolve
+IP-CIDR,2620:149::/32,no-resolve
+IP-CIDR,2403:300::/32,no-resolve
+IP-CIDR,2A01:B740::/32,no-resolve
 IP-CIDR,144.178.0.0/19,no-resolve
