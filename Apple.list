@@ -1,5 +1,5 @@
 #  Apple
-# Update time: 2026-07-07
+# Update time: 2026-07-08
 
 # AppleIdentityFederation（Apple账户身份认证网络）
 DOMAIN-SUFFIX,appleid.apple.com
@@ -237,6 +237,9 @@ DOMAIN-SUFFIX,mask.icloud.com
 IP-CIDR,65.199.22.0/23,no-resolve
 
 # AppleAutonomousSystemNetwork（Apple官方网络）
-IP-CIDR,17.0.0.0/8,no-resolve
+#IP-CIDR,17.0.0.0/8,no-resolve
+#IP-CIDR,2620:149::/32,no-resolve
+#IP-CIDR,2403:300::/32,no-resolve
+#IP-CIDR,2A01:B740::/32,no-resolve
 
 #DOMAIN-SUFFIX,apple.com
