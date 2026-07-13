@@ -96,6 +96,7 @@ DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,redditspace.com
 
 # VenmoPaymentPlatform（Venmo支付平台）
 DOMAIN-SUFFIX,venmo.com
