@@ -180,7 +180,6 @@ DOMAIN-SUFFIX,report.ap.yandex-net.ru,REJECT-DROP,extended-matching,pre-matching
 # 通用广告联盟+跟踪器
 DOMAIN-SUFFIX,scorecardresearch.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,criteo.com,REJECT-DROP,extended-matching,pre-matching
-#DOMAIN-SUFFIX,cloudfront.net,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,adsafeprotected.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,zedo.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,quantserve.com,REJECT-DROP,extended-matching,pre-matching
