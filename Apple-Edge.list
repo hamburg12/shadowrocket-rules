@@ -1,6 +1,10 @@
 # Apple Edge&Route
-# Update time: 2026-07-08
+# Update time: 2026-07-29
 
+DOMAIN-SUFFIX,configuration.apple.com
+DOMAIN-SUFFIX,configuration-v2.apple.com
+DOMAIN-SUFFIX,configuration.ls.apple.com
+DOMAIN-SUFFIX,gdmf.apple.com
 DOMAIN-SUFFIX,time-ios.apple.com
 DOMAIN-SUFFIX,time-macos.apple.com
 DOMAIN-SUFFIX,hls.apple.com
