@@ -1,5 +1,5 @@
 #  Apple
-# Update time: 2026-07-08
+# Update time: 2026-07-29
 
 # AppleIdentityFederation（Apple账户身份认证网络）
 DOMAIN-SUFFIX,appleid.apple.com
@@ -10,14 +10,10 @@ DOMAIN-SUFFIX,account.apple.com
 DOMAIN-SUFFIX,iforgot.apple.com
 
 # AppleCoreServices（Apple核心系统服务）
-DOMAIN-SUFFIX,configuration.apple.com
-DOMAIN-SUFFIX,configuration-v2.apple.com
-DOMAIN-SUFFIX,configuration.ls.apple.com
 DOMAIN-SUFFIX,kt-prod.ess.apple.com
 DOMAIN-SUFFIX,ess.apple.com
 DOMAIN-SUFFIX,pcms.apple.com
 DOMAIN-SUFFIX,bpapi.apple.com
-DOMAIN-SUFFIX,gdmf.apple.com
 DOMAIN-SUFFIX,ocsp2.apple.com
 DOMAIN-SUFFIX,ocsp.apple.com
 DOMAIN-SUFFIX,crl.apple.com
