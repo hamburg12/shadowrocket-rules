@@ -107,6 +107,13 @@ DOMAIN-SUFFIX,help.venmo.com
 DOMAIN-SUFFIX,venmo.zendesk.com
 DOMAIN-SUFFIX,venmoassets.com
 
+# Figma（Figma 在线设计与协作平台）
+DOMAIN-SUFFIX,figma.com
+DOMAIN-SUFFIX,api.figma.com
+DOMAIN-SUFFIX,static.figma.com
+DOMAIN-SUFFIX,files.figma.com
+DOMAIN-SUFFIX,cdn.figma.com
+
 # CanvaDesignPlatform（Canva设计平台）
 DOMAIN-SUFFIX,canva.com
 DOMAIN-SUFFIX,api.canva.com
