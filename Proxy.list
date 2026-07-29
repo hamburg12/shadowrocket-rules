@@ -224,7 +224,13 @@ DOMAIN-SUFFIX,notion-status.com
 DOMAIN-SUFFIX,app.notion.com
 DOMAIN-SUFFIX,makewithnotion.com
 
+# TED Ideas and Education Platform（TED 演讲与教育内容平台）
+DOMAIN-SUFFIX,ted.com
+DOMAIN-SUFFIX,tedcdn.com
+
 # 补充
+DOMAIN-SUFFIX,coursera.org
+DOMAIN-SUFFIX,edx.org
 DOMAIN-SUFFIX,api.revenuecat.com
 DOMAIN-SUFFIX,api.snapkit.com
 DOMAIN,cdn.angruo.com
