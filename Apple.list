@@ -202,6 +202,7 @@ DOMAIN-WILDCARD,p*-buy.itunes.apple.com
 DOMAIN-SUFFIX,buy.itunes.apple.com
 DOMAIN-SUFFIX,inappcheck.itunes.apple.com
 DOMAIN-SUFFIX,init.itunes.apple.com
+DOMAIN-SUFFIX,radio-activity.itunes.apple.com
 
 # ApplePay&Wallet（Apple支付与钱包服务）
 DOMAIN-SUFFIX,apple-pay.com
