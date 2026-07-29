@@ -199,6 +199,24 @@ DOMAIN-SUFFIX,vimeocdn.com
 DOMAIN-SUFFIX,player.vimeo.com
 DOMAIN-SUFFIX,extend.vimeocdn.com
 
+# Obsidian（Obsidian 知识库笔记应用）
+DOMAIN-SUFFIX,obsidian.md
+
+# Notion（Notion 文档协作平台）
+DOMAIN-SUFFIX,notion.com
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notion-static.com
+DOMAIN-SUFFIX,notionusercontent.com
+DOMAIN-SUFFIX,notion-uploads.com
+DOMAIN-SUFFIX,notion-newtab.com
+DOMAIN-SUFFIX,notion.services
+DOMAIN-SUFFIX,api.notion.com
+DOMAIN-SUFFIX,status.notion.so
+DOMAIN-SUFFIX,notion-status.com
+DOMAIN-SUFFIX,app.notion.com
+DOMAIN-SUFFIX,makewithnotion.com
+
 # 补充
 DOMAIN-SUFFIX,api.revenuecat.com
 DOMAIN-SUFFIX,api.snapkit.com
