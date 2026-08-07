@@ -209,8 +209,8 @@ DOMAIN-SUFFIX,t7z.cupid.ptqy.gitv.tv,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,ads-union.jd.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,ads.union.jd.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,c-nfa.jd.com,REJECT-DROP,extended-matching,pre-matching
-DOMAIN-SUFFIX,cps.360buy.com,REJECT-DROP,extended-matching,pre-matching
-DOMAIN-SUFFIX,gia.jd.com,REJECT-DROP,extended-matching,pre-matching
+#DOMAIN-SUFFIX,cps.360buy.com,REJECT-DROP,extended-matching,pre-matching
+#DOMAIN-SUFFIX,gia.jd.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,img-x.jd.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,jzt.jd.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,stat.m.jd.com,REJECT-DROP,extended-matching,pre-matching
