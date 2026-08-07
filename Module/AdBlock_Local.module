@@ -1,7 +1,7 @@
 #!name=国内广告拦截规则集
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
 #AdBlock_Local
-#Update time: 2026-07-04
+#Update time: 2026-08-07
 
 [Rule]
 # Alibaba
