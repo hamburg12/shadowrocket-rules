@@ -2,7 +2,7 @@
 #!desc=某些规则要清除缓存或者重新安装APP，拦截广告才会生效！
 #部分引用：https://github.com/blackmatrix7/ios_rule_script
 #AdBlock_Extended
-#Update time: 2026-06-21
+#Update time: 2026-09-07
 
 [Rule]
 DOMAIN-SUFFIX,live.primis.tech,REJECT-DROP,extended-matching,pre-matching
@@ -132,7 +132,6 @@ DOMAIN-SUFFIX,adtegrity.net,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,adthrive.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,adventori.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,adversal.com,REJECT-DROP,extended-matching,pre-matching
-DOMAIN-SUFFIX,alimama.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,amobee.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,aniview.com,REJECT-DROP,extended-matching,pre-matching
 DOMAIN-SUFFIX,anzu.io,REJECT-DROP,extended-matching,pre-matching
